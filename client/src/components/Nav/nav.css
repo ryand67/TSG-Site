@@ -1,0 +1,19 @@
+.navBar {
+    position: fixed;
+    width: 100%;
+}
+
+.navLogo {
+    width: 2.25em;
+    margin: 1em 0 0 1em;
+    filter: invert(100%);
+    cursor: pointer;
+    transform: scale(.93);
+    transition: .3s ease-in-out;
+}
+
+.navLogo:hover {
+    transition: .3s ease-in-out;
+    transform: scale(1);
+    transform-origin: center;
+}
