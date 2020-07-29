@@ -3,7 +3,8 @@
     height: 30em;
     background-image: url('../../placeholderPictures/resortPlaceholder.jpg');
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: 50% 70%;
     text-align: center;
 }
@@ -31,4 +32,11 @@
 
 .main-text {
     max-width: 50%;
+}
+
+.heroHr {
+    margin: .75em 0;
+    height: .05em;
+    background-color: white;
+    width: 5em;
 }

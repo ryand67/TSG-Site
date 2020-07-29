@@ -1,11 +1,16 @@
 .navBar {
+    margin-top: 1em;
+    margin-left: 1em;
     position: fixed;
     width: 100%;
+    color: white;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2em auto 10em;
 }
 
 .navLogo {
     width: 2.25em;
-    margin: 1em 0 0 1em;
     filter: invert(100%);
     cursor: pointer;
     transform: scale(.93);
@@ -16,4 +21,35 @@
     transition: .3s ease-in-out;
     transform: scale(1);
     transform-origin: center;
+}
+
+.navList {
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.navItem {
+    font-weight: 300;
+    font-size: .9em;
+    margin: 0 .5em;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navList > .navItem::before {
+    position: absolute;
+    content: '';
+    height: 10%;
+    width: 9%;
+    bottom: -5px;
+    background-color: white;
+    transform: scaleX(0);
+    transition: .4s ease-in-out;
+}
+
+.navList:hover .navItem:hover:before {
+    transform: scaleX(1);
+    transition: .4s ease-in-out;
 }
