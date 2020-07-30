@@ -4,6 +4,7 @@ import './index.css'
 import Hero from './components/Hero/Hero';
 import Nav from './components/Nav/Nav';
 import OurTeamSection from './components/OurTeam/Section/OurTeamSection';
+import ServiceCardSection from './components/ServiceCards/Section/ServiceCardsSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path="/">
           <Nav />
           <Hero />
+          <ServiceCardSection />
           <OurTeamSection />
         </Route>
       </div>

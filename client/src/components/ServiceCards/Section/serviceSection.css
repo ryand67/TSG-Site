@@ -1,0 +1,9 @@
+.serviceCardSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--main-dark-text);
+}
