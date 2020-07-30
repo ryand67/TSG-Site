@@ -1,5 +1,5 @@
 .teamCardContainer {
-    /* border: 1px solid black; */
+    height: 27em;
     width: 14em;
     max-width: 14em;
     min-width: 14em;
@@ -42,4 +42,9 @@
 
 .teamCardContact i {
     padding-right: 1em;
+}
+
+.teamCardEmail a {
+    color: var(--main-dark-text);
+    text-decoration: none;
 }

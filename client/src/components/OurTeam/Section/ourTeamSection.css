@@ -1,5 +1,5 @@
 .ourTeamSection {
-    color: rgb(49, 49, 49);
+    color: var(--main-dark-text);
     text-align: center;
     width: 75%;
     margin: 0 auto;
