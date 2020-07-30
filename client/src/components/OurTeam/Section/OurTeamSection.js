@@ -53,6 +53,10 @@ const OurTeamSection = () => {
         email: 'testing@test.com'
     }]
 
+    const makeCard = (item, i) => {
+        return <TeamCard key={i} name={item.name} picture={item.picture} desc={item.desc} phone={item.phone} email={item.email} />
+    }
+
     return(
         <div className="ourTeamSection" id='ourTeamSection'>
             <h2 className="teamSectionHeader">Our Agents</h2>
@@ -60,14 +64,14 @@ const OurTeamSection = () => {
             <div className="cardContainer">
                 {agents.map((item, i) => {
                     if(i < 4) {
-                        return <TeamCard key={i} name={item.name} picture={item.picture} desc={item.desc} phone={item.phone} />
+                        return makeCard(item, i);
                     }
                 })}
             </div>
             <div className="cardContainer">
             {agents.map((item, i) => {
                     if(i > 4) {
-                        return <TeamCard key={i} name={item.name} picture={item.picture} desc={item.desc} phone={item.phone} />
+                        return makeCard(item, i);
                     }
                 })}
             </div>
