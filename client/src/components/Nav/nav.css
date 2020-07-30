@@ -38,6 +38,11 @@
     cursor: pointer;
 }
 
+.navLink {
+    color: white;
+    text-decoration: none;
+}
+
 .navList > .navItem::before {
     position: absolute;
     content: '';

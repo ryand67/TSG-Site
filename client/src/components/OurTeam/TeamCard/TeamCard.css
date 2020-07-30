@@ -1,0 +1,36 @@
+.teamCardContainer {
+    /* border: 1px solid black; */
+    width: 14em;
+    max-width: 14em;
+    min-width: 14em;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.144);
+}
+
+.teamCardPicture {
+    margin-top: .5em;
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+}
+
+.teamCardHr {
+    margin: .75em 0;
+    width: 40%;
+}
+
+.teamCardName {
+    font-weight: 300;
+}
+
+.teamCardDesc {
+    width: 75%;
+    font-weight: 200;
+    margin: .5em 0 1.5em 0;
+    text-align: left;
+}
