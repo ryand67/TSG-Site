@@ -1,6 +1,6 @@
 .navBar {
     margin-top: 1em;
-    margin-left: 1em;
+    margin-left: 1.5em;
     position: fixed;
     width: 100%;
     color: white;
@@ -24,7 +24,7 @@
 }
 
 .navList {
-    right: 50px;
+    right: 3em;
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -51,10 +51,10 @@
     bottom: -5px;
     background-color: white;
     transform: scaleX(0);
-    transition: .4s ease-in-out;
+    transition: .25s ease-in-out;
 }
 
 .navList:hover .navItem:hover:before {
     transform: scaleX(1);
-    transition: .4s ease-in-out;
+    transition: .25s ease-in-out;
 }
