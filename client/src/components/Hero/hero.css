@@ -1,5 +1,5 @@
 .hero {
-    width: 100%;
+    width: 100vw;
     height: 35em;
     background-image: url('../../placeholderPictures/resortPlaceholder.jpg');
     background-size: cover;
@@ -51,7 +51,7 @@
     padding: .8em 3em;
     background-color: transparent;
     border: 3px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
     color: white;
     transition: .3s ease-in-out;
     cursor: pointer;
