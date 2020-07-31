@@ -1,0 +1,18 @@
+.footer {
+    margin: 1em 0;
+    width: 100%;
+    color: var(--main-dark-text);
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.footer i {
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+.footer a {
+    color: var(--main-dark-text);
+    text-decoration: none;
+}

@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import Nav from './components/Nav/Nav';
 import OurTeamSection from './components/OurTeam/Section/OurTeamSection';
 import ServiceCardSection from './components/ServiceCards/Section/ServiceCardsSection';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Hero />
           <ServiceCardSection />
           <OurTeamSection />
+          <Footer />
         </Route>
       </div>
     </Router>
