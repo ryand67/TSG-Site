@@ -6,4 +6,9 @@
     margin: 0 auto;
     text-align: center;
     color: var(--main-dark-text);
+    margin-top: 1em;
+}
+
+.serviceCardSection hr {
+    margin-bottom: 2em;
 }

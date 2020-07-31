@@ -6,10 +6,13 @@ import { HashLink as Link } from 'react-router-hash-link';
 const Nav = () => {
     return (
         <nav className="navBar">
-            <img src={navLogo} alt="" className="navLogo"/>
+            <Link smooth to="#hero">
+                <img src={navLogo} alt="" className="navLogo"/>
+            </Link>
             <ul className="navList">
-                <li className="navItem">Company</li>
-                <li className="navItem">Services</li>
+                <Link smooth to="#serviceCardSection" className="navLink navItem">
+                    <li>Services</li>
+                </Link>
                 <li className="navItem">Contact Us</li>
                 <Link smooth to="#ourTeamSection" className="navLink navItem">
                     <li>Our Agents</li>

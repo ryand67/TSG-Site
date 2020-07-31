@@ -33,6 +33,7 @@
 .main-text {
     max-width: 50%;
     font-weight: 300;
+    margin-bottom: 1em;
 }
 
 .heroHr {
@@ -41,4 +42,23 @@
     height: .2em;
     background-color: white;
     width: 5em;
+}
+
+.heroButton {
+    border: none;
+    font-size: .8em;
+    font-weight: 800;
+    padding: .8em 3em;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.heroButton:hover {
+    background-color: white;
+    transition: .3s ease-in-out;
+    color: var(--main-dark-text);
 }

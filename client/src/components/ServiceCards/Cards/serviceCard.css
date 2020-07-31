@@ -1,0 +1,32 @@
+.serviceCard {
+    height: 12em;
+    width: 12em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 5px;
+    filter: brightness(.9);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.serviceCard:hover {
+    transform: scale(1.02);
+    transition: .3s ease-in-out;
+}
+
+.serviceCardTitle {
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.serviceCardFilter {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 146, 209, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
