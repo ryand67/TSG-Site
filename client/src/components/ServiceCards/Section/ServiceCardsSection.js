@@ -6,7 +6,8 @@ const ServiceCardSection = () => {
     const services = [{
         picture: 'https://images.unsplash.com/photo-1528916138893-06acfc566dea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2242&q=80',
         title: "Isn't It Romantic?",
-        desc: "Honeymoons, Destination Weddings"
+        desc: "Honeymoons, Destination Weddings",
+        urlLocation: '/honeymoon'
     }, {
         picture: 'https://images.unsplash.com/photo-1528916138893-06acfc566dea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2242&q=80',
         title: "Best Meeting Ever!",
@@ -34,7 +35,7 @@ const ServiceCardSection = () => {
     }]
 
     const makeCard = (item) => {
-        return <ServiceCard picture={item.picture} title={item.title} desc={item.desc} />
+        return <ServiceCard url={item.urlLocation} picture={item.picture} title={item.title} desc={item.desc} />
     }
 
     return (

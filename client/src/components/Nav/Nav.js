@@ -4,11 +4,14 @@ import navLogo from '../../Assets/TSGLogoNoTextPNG.png';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Nav = () => {
+
+    const handleLogoClick = () => {
+        window.location.replace('/');
+    }
+
     return (
         <nav className="navBar">
-            <Link smooth to="#hero">
-                <img src={navLogo} alt="" className="navLogo"/>
-            </Link>
+            <img src={navLogo} alt="" className="navLogo" onClick={() => handleLogoClick()}/>
             
             <ul className="navList">
                 <Link smooth to="#serviceCardSection" className="navLink navItem">

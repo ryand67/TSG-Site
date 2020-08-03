@@ -6,16 +6,24 @@ import Nav from './components/Nav/Nav';
 import OurTeamSection from './components/OurTeam/Section/OurTeamSection';
 import ServiceCardSection from './components/ServiceCards/Section/ServiceCardsSection';
 import Footer from './components/Footer/Footer';
+import HoneymoonPage from './components/HoneymoonPage/HoneymoonPage';
 
 function App() {
+
   return (
     <Router>
       <div className="siteContainer">
         <Route exact path="/">
           <Nav />
-          <Hero />
+          <Hero title="Travel Sales Group" desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quidem eligendi quia incidunt aliquid tempora fuga eum nisi perferendis quod, quos consequuntur blanditiis, minus quisquam ipsam quasi, beatae exercitationem magni!" />
           <ServiceCardSection />
           <OurTeamSection />
+          <Footer />
+        </Route>
+
+        <Route exact path="/honeymoon">
+          <Nav />
+          <HoneymoonPage />
           <Footer />
         </Route>
       </div>
