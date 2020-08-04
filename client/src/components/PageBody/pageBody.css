@@ -1,0 +1,13 @@
+.pageBodyContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pageBodyHr {
+    width: 3em;
+    margin: 0 auto;
+    border: .1em solid var(--main-dark-text);
+}

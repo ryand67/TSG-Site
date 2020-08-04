@@ -21,6 +21,14 @@ const Hero = (props) => {
         }, 5000);
     }, [])
 
+    const howWeWorkButton = () => {
+        window.location.replace('/how-we-work')
+    }
+
+    const contactButtonClick = () => {
+        window.location.replace('/contact');
+    }
+
     return (
         <div className="hero" style={{backgroundImage: `url(${currentImage})` }}>
             <div className="heroShader">
@@ -28,7 +36,7 @@ const Hero = (props) => {
                     <h1 className="main-title">{props.title}</h1>
                     {props.hrVisible ? <hr className="heroHr"/> : false}
                     <h4 className="main-text">{props.desc}</h4>
-                    {window.location.pathname === '/' ? <button className="heroButton">How We Work</button> : <button className="heroButton">Contact</button>}
+                    {window.location.pathname === '/' ? <button className="heroButton" onClick={() => howWeWorkButton()}>How We Work</button> : <button className="heroButton" onClick={() => contactButtonClick()}>Contact</button>}
                 </div>
             </div>
         </div>
