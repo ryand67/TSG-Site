@@ -18,7 +18,7 @@ function App() {
       <div className="siteContainer">
         <Route exact path="/">
           <Nav />
-          <Hero title="Travel Sales Group" desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quidem eligendi quia incidunt aliquid tempora fuga eum nisi perferendis quod, quos consequuntur blanditiis, minus quisquam ipsam quasi, beatae exercitationem magni!" hrVisible={true} pictures={placeHolderPictures} />
+          <Hero title="Travel Sales Group" desc="“And the purpose of life, after all, is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.” — Eleanor Roosevelt" hrVisible={true} pictures={placeHolderPictures} />
           <ServiceCardSection />
           <OurTeamSection />
           <Footer />
