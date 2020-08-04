@@ -1,12 +1,13 @@
 .hero {
     width: 100vw;
     height: 35em;
-    background-image: url('../../placeholderPictures/resortPlaceholder.jpg');
+    /* background-image: url('../../placeholderPictures/resortPlaceholder.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
     text-align: center;
+    transition: 1s ease-in-out;
 }
 
 .heroShader {
