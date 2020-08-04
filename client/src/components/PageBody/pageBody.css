@@ -4,10 +4,17 @@
     text-align: center;
     flex-direction: column;
     width: 100%;
+    padding-top: 1em;
 }
 
 .pageBodyHr {
     width: 3em;
     margin: 0 auto;
     border: .1em solid var(--main-dark-text);
+}
+
+.pageBodyDesc {
+    max-width: 80%;
+    text-align: left;
+    margin: 0 auto;
 }

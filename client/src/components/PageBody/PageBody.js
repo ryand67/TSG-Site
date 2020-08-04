@@ -6,6 +6,7 @@ const PageBody = (props) => {
         <div className="pageBodyContainer">
             <h1 classNAme="pageBodyHeading">{props.heading}</h1>
             <hr className="pageBodyHr"/>
+            <p className="pageBodyDesc">{props.desc}</p>
         </div>
     )
 }
