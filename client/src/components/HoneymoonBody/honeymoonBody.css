@@ -1,0 +1,25 @@
+.honeymoonBody {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: var(--main-dark-text);
+    flex-direction: column;
+}
+
+.honeymoonHr {
+    width: 12em;
+    height: .25em;
+    background-color: var(--main-dark-text);
+    border: none;
+    margin: 0 auto;
+}
+
+.honeymoonHeading {
+    text-align: center;
+    margin: .5em 0;
+}
+
+.honeymoonPoints {
+    text-align: left;
+}

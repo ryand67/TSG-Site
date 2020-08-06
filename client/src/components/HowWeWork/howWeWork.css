@@ -1,6 +1,7 @@
 .howWeWorkDiv {
     width: 70%;
     margin: 0 auto;
+    color: var(--main-dark-text);
 }
 
 .howWeWorkPoint {

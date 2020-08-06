@@ -7,6 +7,7 @@ import OurTeamSection from './components/OurTeam/Section/OurTeamSection';
 import ServiceCardSection from './components/ServiceCards/Section/ServiceCardsSection';
 import Footer from './components/Footer/Footer';
 import HowWeWork from './components/HowWeWork/HowWeWork';
+import HoneymoonBody from './components/HoneymoonBody/HoneymoonBody';
 import textHolder from './Assets/textHolder';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/honeymoon">
           <Nav />
           <Hero title="Isn't It Romantic?" desc="Our Travel Sales Group Pros are experts at honeymoons, destination weddings and Anniversary getaways. We know first hand how much these trips mean to you! They can bring a couple together and make memories that will be cherished forever. We will chat with you, ask the right questions, and make sure that your getaway together is the best trip you could dream up!" hrVisible={true} pictures={placeHolderPictures} />
+          <HoneymoonBody />
           <Footer />
         </Route>
 
