@@ -8,17 +8,17 @@ const Nav = () => {
     const handleLogoClick = () => {
         window.location.replace('/');
     }
-
+    console.log(window.location);
     return (
         <nav className="navBar">
             <img src={navLogo} alt="" className="navLogo" onClick={() => handleLogoClick()}/>
             
             <ul className="navList">
-                <Link smooth to="#serviceCardSection" className="navLink navItem">
+                <Link smooth to={window.location.pathname === '/' ? "#serviceCardSection" : "/#serviceCardSection"} className="navLink navItem">
                     <li>Services</li>
                 </Link>
 
-                <Link smooth to="#ourTeamSection" className="navLink navItem">
+                <Link smooth to={window.location.pathname === '/' ? "#ourTeamSection" : "/#ourTeamSection"} className="navLink navItem">
                     <li>Our Agents</li>
                 </Link>
 

@@ -6,7 +6,7 @@ import Nav from './components/Nav/Nav';
 import OurTeamSection from './components/OurTeam/Section/OurTeamSection';
 import ServiceCardSection from './components/ServiceCards/Section/ServiceCardsSection';
 import Footer from './components/Footer/Footer';
-import PageBody from './components/PageBody/PageBody';
+import HowWeWork from './components/HowWeWork/HowWeWork';
 import textHolder from './Assets/textHolder';
 
 function App() {
@@ -27,12 +27,13 @@ function App() {
         <Route exact path="/honeymoon">
           <Nav />
           <Hero title="Isn't It Romantic?" desc="Our Travel Sales Group Pros are experts at honeymoons, destination weddings and Anniversary getaways. We know first hand how much these trips mean to you! They can bring a couple together and make memories that will be cherished forever. We will chat with you, ask the right questions, and make sure that your getaway together is the best trip you could dream up!" hrVisible={true} pictures={placeHolderPictures} />
-          <PageBody heading="How We Work"  desc={textHolder.howWeWork}/>
           <Footer />
         </Route>
 
         <Route exact path='/how-we-work'>
           <Nav />
+          <Hero title="How We Work" desc="TravelSalesGroup Travel Consultants plan customized trips that are thoughtfully seemed together and geared toward exactly what YOU are looking for in a travel experience.  We create the perfect trip, designed just for you by understanding your likes and dislikes.  We take time with each of our special clients to understand the dream that they have and do everything in our power to exceed their expectations. We receive many requests for travel assistance but only work with a few  clients at a time, in order to provide our best service.  Below is a general timeline and an outline of what to expect when working with one of our agents." hrVisible={true} pictures={placeHolderPictures} />
+          <HowWeWork />
           <Footer />
         </Route>
       </div>
