@@ -60,6 +60,7 @@
     color: white;
     transition: .3s ease-in-out;
     cursor: pointer;
+    outline: none;
 }
 
 .heroButton:hover {

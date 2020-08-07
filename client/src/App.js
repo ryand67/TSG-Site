@@ -46,6 +46,10 @@ function App() {
           <AdultsOnly />
           <Footer />
         </Route>
+
+        <Route exact path="/contact">
+          <Nav />
+        </Route>
       </div>
     </Router>
   );
