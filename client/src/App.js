@@ -8,6 +8,7 @@ import ServiceCardSection from './components/ServiceCards/Section/ServiceCardsSe
 import Footer from './components/Footer/Footer';
 import HowWeWork from './components/HowWeWork/HowWeWork';
 import HoneymoonBody from './components/HoneymoonBody/HoneymoonBody';
+import AdultsOnly from './components/AdultsOnly/AdultsOnly';
 import textHolder from './Assets/textHolder';
 
 function App() {
@@ -36,6 +37,13 @@ function App() {
           <Nav />
           <Hero title="How We Work" desc="TravelSalesGroup Travel Consultants plan customized trips that are thoughtfully seemed together and geared toward exactly what YOU are looking for in a travel experience.  We create the perfect trip, designed just for you by understanding your likes and dislikes.  We take time with each of our special clients to understand the dream that they have and do everything in our power to exceed their expectations. We receive many requests for travel assistance but only work with a few  clients at a time, in order to provide our best service.  Below is a general timeline and an outline of what to expect when working with one of our agents." hrVisible={true} pictures={placeHolderPictures} />
           <HowWeWork />
+          <Footer />
+        </Route>
+
+        <Route exact path="/adults-only">
+          <Nav />
+          <Hero title="For the Grown Ups - Adults Only Resorts" desc="" pictures={placeHolderPictures} hrVisible={false} />
+          <AdultsOnly />
           <Footer />
         </Route>
       </div>

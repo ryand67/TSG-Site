@@ -15,7 +15,8 @@ const ServiceCardSection = () => {
     }, {
         picture: 'https://images.unsplash.com/photo-1528916138893-06acfc566dea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2242&q=80',
         title: `Grown Up Time`,
-        desc: 'Adults Only Resorts, For Couples or Groups'
+        desc: 'Adults Only Resorts, For Couples or Groups',
+        urlLocation: '/adults-only'
     }, {
         picture: 'https://images.unsplash.com/photo-1528916138893-06acfc566dea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2242&q=80',
         title: 'You Pick The Place',

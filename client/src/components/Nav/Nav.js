@@ -8,7 +8,7 @@ const Nav = () => {
     const handleLogoClick = () => {
         window.location.replace('/');
     }
-    console.log(window.location);
+
     return (
         <nav className="navBar">
             <img src={navLogo} alt="" className="navLogo" onClick={() => handleLogoClick()}/>

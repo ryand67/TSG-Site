@@ -1,5 +1,5 @@
 .teamCardContainer {
-    height: 27em;
+    height: 30em;
     width: 14em;
     max-width: 14em;
     min-width: 14em;
@@ -7,16 +7,18 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.144);
 }
 
 .teamCardPicture {
+    overflow: hidden;
     margin-top: .5em;
     border-radius: 50%;
     width: 8em;
     height: 8em;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.144);
 }
 
 .teamCardHr {
@@ -29,6 +31,7 @@
 }
 
 .teamCardDesc {
+    max-height: 15em;
     width: 75%;
     font-weight: 200;
     margin: .5em 0 0 0;
@@ -38,6 +41,7 @@
 .teamCardContact {
     margin: 1em 0;
     text-align: left;
+    font-size: 22px;
 }
 
 .teamCardContact i {

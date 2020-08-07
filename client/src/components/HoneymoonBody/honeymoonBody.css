@@ -22,4 +22,10 @@
 
 .honeymoonPoints {
     text-align: left;
+    margin: 1em 0;
+}
+
+.honeymoonPoint {
+    font-weight: 500;
+    margin: 1em 0;
 }

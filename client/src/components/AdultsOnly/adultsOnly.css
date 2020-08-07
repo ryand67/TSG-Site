@@ -1,0 +1,19 @@
+.adultsOnlyDiv {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--main-dark-text);
+}
+
+.adultCountrySelect {
+    margin: 3em auto;
+    width: 15%;
+    padding: 1em;
+    font-weight: 800;
+    color: var(--main-dark-text);
+    border-radius: 15px;
+}
