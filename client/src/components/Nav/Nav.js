@@ -1,16 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './nav.css';
 import navLogo from '../../Assets/TSGLogoNoTextPNG.png';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Nav = () => {
 
+    const [isTop, setTop] = useState(false);
+
     const handleLogoClick = () => {
         window.location.replace('/');
     }
 
+    React.useEffect(() => {
+        window.addEventListener('scroll', () => {
+            console.log(window.scrollY > 500);
+            setTop(window.scrollY > 500);
+        })
+    }, [])
+
     return (
-        <nav className="navBar">
+        <nav className={isTop ? 'navBar navBarBottom' : 'navBar'} >
             <img src={navLogo} alt="" className="navLogo" onClick={() => handleLogoClick()}/>
             
             <ul className="navList">

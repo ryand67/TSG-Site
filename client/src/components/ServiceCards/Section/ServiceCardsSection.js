@@ -35,8 +35,8 @@ const ServiceCardSection = () => {
         desc: 'Luxury Family Travel'
     }]
 
-    const makeCard = (item) => {
-        return <ServiceCard url={item.urlLocation} picture={item.picture} title={item.title} desc={item.desc} />
+    const makeCard = (item, i) => {
+        return <ServiceCard key={i} url={item.urlLocation} picture={item.picture} title={item.title} desc={item.desc} />
     }
 
     return (
@@ -46,14 +46,14 @@ const ServiceCardSection = () => {
             <div className="serivceCardContainer">
                 {services.map((item, i) => {
                     if(i < 4) {
-                        return makeCard(item);
+                        return makeCard(item, i);
                     }
                 })}
             </div>
             <div className="serivceCardContainer">
                 {services.map((item, i) => {
                     if(i > 3) {
-                        return makeCard(item);
+                        return makeCard(item, i);
                     }
                 })}
             </div>

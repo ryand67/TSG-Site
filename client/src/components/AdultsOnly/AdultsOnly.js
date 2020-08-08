@@ -35,8 +35,8 @@ const AdultsOnly = () => {
     }
 
     const loadAlbums = (arr) => {
-        let result = arr.map(item => {
-            return <iframe src={item} width="552" height="792" style={iframeStyle} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        let result = arr.map((item, i) => {
+            return <iframe key={i} src={item} width="552" height="792" style={iframeStyle} scrolling="no" frameBorder="0"  allow="encrypted-media"></iframe>
         })
         return result;
     }
