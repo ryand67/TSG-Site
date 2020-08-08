@@ -10,12 +10,13 @@
 }
 
 .adultCountrySelect {
-    margin: 3em auto;
+    margin: 2em auto;
     width: 20em;
     padding: 1em;
     font-weight: 800;
     color: var(--main-dark-text);
     border-radius: 15px;
+    outline: none;
 }
 
 .fbAlbumsAdultsOnly {
