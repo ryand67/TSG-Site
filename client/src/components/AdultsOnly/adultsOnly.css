@@ -11,9 +11,20 @@
 
 .adultCountrySelect {
     margin: 3em auto;
-    width: 15%;
+    width: 20em;
     padding: 1em;
     font-weight: 800;
     color: var(--main-dark-text);
     border-radius: 15px;
+}
+
+.fbAlbumsAdultsOnly {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.fbAlbumsAdultsOnly iframe {
+    margin: 1em 0;
 }
