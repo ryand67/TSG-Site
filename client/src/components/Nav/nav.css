@@ -1,11 +1,19 @@
 .navBar {
-    margin-top: 1em;
-    margin-left: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: .5em;
     position: fixed;
     width: 100%;
     color: white;
     align-items: center;
     display: flex;
+    transition: .4s ease-in-out;
+    z-index: 99;
+}
+
+.navBarBottom {
+    background-color: var(--main-dark-text);
+    transition: 1s ease-in-out;
 }
 
 .navLogo {
