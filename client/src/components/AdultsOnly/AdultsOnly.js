@@ -5,7 +5,10 @@ const AdultsOnly = () => {
 
     const [currentCountry, setCountry] = useState('Riviera Maya/Cancun');
 
-    const cancunLinks=['https://www.facebook.com/travelsalesgroup/photos/?tab=album&album_id=540565556097725', 'https://www.facebook.com/travelsalesgroup/photos/?tab=album&album_id=728746207279658']
+    const cancunLinks = {
+        title: 'Rivirea Maya/Cancun',
+        links: ['https://www.facebook.com/travelsalesgroup/photos/?tab=album&album_id=540565556097725', 'https://www.facebook.com/travelsalesgroup/photos/?tab=album&album_id=728746207279658']
+    }
 
     const iframeStyle = {
         border: 'none',
@@ -14,11 +17,8 @@ const AdultsOnly = () => {
         height: '792'
     }
 
-    const loadAlbums = (arr) => {
-        let result = arr.map(item => {
-            return <p>{item}</p>
-        })
-        return result;
+    const loadAlbums = (place) => {
+        return <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.540565556097725&show_text=true&width=552&height=792&appId" width="552" height="792" style={iframeStyle} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     }
 
     const handleSelectChange = (e) => {
