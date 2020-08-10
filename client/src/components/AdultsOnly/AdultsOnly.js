@@ -5,12 +5,6 @@ const AdultsOnly = () => {
 
     const [currentCountry, setCountry] = useState('Riviera Maya/Cancun');
 
-<<<<<<< HEAD
-    const cancunLinks = {
-        title: 'Rivirea Maya/Cancun',
-        links: ['https://www.facebook.com/travelsalesgroup/photos/?tab=album&album_id=540565556097725', 'https://www.facebook.com/travelsalesgroup/photos/?tab=album&album_id=728746207279658']
-    }
-=======
     const cancunLinks=['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.540565556097725&show_text=true&width=552&height=792&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.728746207279658&show_text=true&width=552&height=792&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.540622576092023&show_text=true&width=552&height=792&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1029168537237422&show_text=true&width=552&height=880&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1547714015382869&show_text=true&width=552&height=792&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.370891783065104&show_text=true&width=552&height=697&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.136637486490536&show_text=true&width=552&height=773&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.369132076574408&show_text=true&width=552&height=735&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.593114350842845&show_text=true&width=552&height=798&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.134924809995137&show_text=true&width=552&height=773&appId']
 
     const cozumelLinks = ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.371507346336881&show_text=true&width=552&height=773&appId', ]
@@ -34,23 +28,17 @@ const AdultsOnly = () => {
     const arubaLinks = ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.721663851321227&show_text=true&width=552&height=792&appId']
 
     const costaRicaLinks = ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.570839836403630&show_text=true&width=552&height=817&appId']
->>>>>>> 3b19ff9a32eeff636cd40b3363a241eea8303d75
 
     const iframeStyle = {
         border: 'none',
         overflow: 'hidden'
     }
 
-<<<<<<< HEAD
-    const loadAlbums = (place) => {
-        return <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.540565556097725&show_text=true&width=552&height=792&appId" width="552" height="792" style={iframeStyle} scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-=======
     const loadAlbums = (arr) => {
         let result = arr.map((item, i) => {
             return <iframe key={i} src={item} width="552" height="792" style={iframeStyle} scrolling="no" frameBorder="0"  allow="encrypted-media"></iframe>
         })
         return result;
->>>>>>> 3b19ff9a32eeff636cd40b3363a241eea8303d75
     }
 
     const handleArrayPassing = () => {
