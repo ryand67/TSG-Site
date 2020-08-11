@@ -32,7 +32,8 @@ const ServiceCardSection = () => {
     }, {
         picture: 'https://images.unsplash.com/photo-1528916138893-06acfc566dea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2242&q=80',
         title: 'Travelling w/ Tots',
-        desc: 'Luxury Family Travel'
+        desc: 'Luxury Family Travel',
+        urlLocation: '/kid-friendly'
     }]
 
     const makeCard = (item, i) => {

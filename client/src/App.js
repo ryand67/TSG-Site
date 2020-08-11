@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import HowWeWork from './components/HowWeWork/HowWeWork';
 import HoneymoonBody from './components/HoneymoonBody/HoneymoonBody';
 import AdultsOnly from './components/AdultsOnly/AdultsOnly';
+import KidFriendly from './components/KidFriendly/KidFriendly';
 import textHolder from './Assets/textHolder';
 
 function App() {
@@ -44,6 +45,13 @@ function App() {
           <Nav />
           <Hero title="For the Grown Ups - Adults Only Resorts" desc="" pictures={placeHolderPictures} hrVisible={false} />
           <AdultsOnly />
+          <Footer />
+        </Route>
+
+        <Route exact path="/kid-friendly">
+          <Nav />
+          <Hero title="Traveling w/ Tots" desc="" pictures={placeHolderPictures} hrVisible={false} />
+          <KidFriendly />
           <Footer />
         </Route>
 
