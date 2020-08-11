@@ -30,7 +30,9 @@ const Nav = () => {
                     <li>Our Agents</li>
                 </Link>
 
-                <li className="navItem">Contact Us</li>
+                <Link to='/contact' className="navLink navItem">
+                    <li>Contact Us</li>
+                </Link>
                 <li className="navItem"><a href="https://www.vacationcrm.com/IFrameRegistration?lookup_id=9A1FBE78-6356-4091-A53B-EBCEFA51D759" target="_blank">Client Info Form</a></li>
             </ul>
         </nav>
