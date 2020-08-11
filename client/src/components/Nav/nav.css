@@ -24,11 +24,11 @@
     transition: .3s ease-in-out;
 }
 
-.navLogo:hover {
+/* .navLogo:hover {
     transition: .3s ease-in-out;
     transform: scale(1);
     transform-origin: center;
-}
+} */
 
 .navList {
     right: 3em;

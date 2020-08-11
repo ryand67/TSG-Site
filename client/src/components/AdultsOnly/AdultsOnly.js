@@ -77,12 +77,12 @@ const AdultsOnly = () => {
         <div className="adultsOnlyDiv">
             <h1 className="adultsOnlySelectHeading">Select Your Destination:</h1>
             <select name="countrySelect" id="adultCountrySelect" className="adultCountrySelect" onChange={(e) => handleSelectChange(e)}>
-                <option value="Riviera Maya/Cancun">Riviera Maya/Cancun, Mexico</option>
-                <option value="Cozumel">Cozumel, Mexico</option>
-                <option value="Cabo San Lucas">Cabo San Lucas, Mexico</option>
+                <option value="Riviera Maya/Cancun">Riviera Maya/Cancun</option>
+                <option value="Cozumel">Cozumel</option>
+                <option value="Cabo San Lucas">Cabo San Lucas</option>
                 <option value="Antigua">Antigua</option>
                 <option value="St. Lucia">St. Lucia</option>
-                <option value="Punta Cana">Punta Cana, Domincan Republic</option>
+                <option value="Punta Cana">Punta Cana</option>
                 <option value="Jamaica">Jamaica</option>
                 <option value="Barbados">Barbados</option>
                 <option value="St. Martin">St. Martin/St. Maarten</option>

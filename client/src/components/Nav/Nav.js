@@ -13,13 +13,12 @@ const Nav = () => {
 
     React.useEffect(() => {
         window.addEventListener('scroll', () => {
-            console.log(window.scrollY > 500);
             setTop(window.scrollY > 500);
         })
     }, [])
 
     return (
-        <nav className={isTop ? 'navBar navBarBottom' : 'navBar'} >
+        <nav className={isTop || window.location.pathname === '/contact' ? 'navBar navBarBottom' : 'navBar'} >
             <img src={navLogo} alt="" className="navLogo" onClick={() => handleLogoClick()}/>
             
             <ul className="navList">

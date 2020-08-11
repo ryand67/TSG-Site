@@ -10,7 +10,7 @@ import HowWeWork from './components/HowWeWork/HowWeWork';
 import HoneymoonBody from './components/HoneymoonBody/HoneymoonBody';
 import AdultsOnly from './components/AdultsOnly/AdultsOnly';
 import KidFriendly from './components/KidFriendly/KidFriendly';
-import textHolder from './Assets/textHolder';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -57,6 +57,8 @@ function App() {
 
         <Route exact path="/contact">
           <Nav />
+          <Contact />
+          <Footer />
         </Route>
       </div>
     </Router>

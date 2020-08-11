@@ -1,0 +1,47 @@
+.contactPageDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--main-dark-text);
+}
+
+.contactHeader {
+    margin-top: 2.75em;
+}
+
+.contactForm {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contactForm input {
+    width: 70%;
+    padding: .5em 1em;
+    border-radius: 5px;
+    border: 2px solid var(--main-dark-text);
+}
+
+.contactForm textarea {
+    width: 70%;
+    border-radius: 5px;
+    padding: 1em;
+    border: 2px solid var(--main-dark-text);
+}
+
+.formSubmit {
+    background-color: var(--main-dark-text);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    margin: 1em 0;
+    padding: 1em;
+    cursor: pointer;
+}
