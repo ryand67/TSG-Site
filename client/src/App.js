@@ -54,12 +54,6 @@ function App() {
           <KidFriendly />
           <Footer />
         </Route>
-
-        <Route exact path="/contact">
-          <Nav />
-          <Contact />
-          <Footer />
-        </Route>
       </div>
     </Router>
   );

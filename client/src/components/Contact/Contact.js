@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './contact.css';
 
-export default function() {
+export default function(props) {
 
     const [formName, setName] = useState('');
     const [formEmail, setEmail] = useState('');
@@ -16,6 +16,7 @@ export default function() {
     return (
         <div className="contactShader">
             <div className="contactPageDiv">
+                <i onClick={() => props.exitFunc()} className="fas fa-times contact-exit"></i>
                 <h1 className="contactHeader">Contact Us:</h1>
                 <form action="" className="contactForm" onSubmit={(e) => handleFormSubmit(e)}>
                     <label htmlFor="formNameInput">Name:</label>

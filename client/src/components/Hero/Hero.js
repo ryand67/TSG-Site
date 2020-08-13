@@ -31,9 +31,13 @@ const Hero = (props) => {
         setContact(true);
     }
 
+    const exitButton = () => {
+        setContact(false);
+    }
+
     return (
         <div className="hero" style={{backgroundImage: `url(${currentImage})` }}>
-            {contactUp ? <Contact /> : ''}
+            {contactUp ? <Contact exitFunc={exitButton}/> : ''}
             <div className="heroShader">
                 <div className="title-container">
                     <h1 className="main-title">{props.title}</h1>

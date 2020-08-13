@@ -64,3 +64,7 @@
     background-color: white;
     transition: .3s ease-in-out;
 }
+
+.contact-exit {
+    cursor: pointer;
+}
