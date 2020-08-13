@@ -1,9 +1,11 @@
 import React from 'react';
 import './hero.css'
+import Contact from '../Contact/Contact';
 
 const Hero = (props) => {
 
     const [currentImage, setCurrentImage] = React.useState(props.pictures[0]);
+    const [contactUp, setContact] = React.useState(false);
 
     let counter = 0;
 
@@ -26,11 +28,12 @@ const Hero = (props) => {
     }
 
     const contactButtonClick = () => {
-        window.location.replace('/contact');
+        setContact(true);
     }
 
     return (
         <div className="hero" style={{backgroundImage: `url(${currentImage})` }}>
+            {contactUp ? <Contact /> : ''}
             <div className="heroShader">
                 <div className="title-container">
                     <h1 className="main-title">{props.title}</h1>

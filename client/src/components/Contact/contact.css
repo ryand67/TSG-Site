@@ -1,14 +1,26 @@
-.contactPageDiv {
+.contactShader {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.295);
     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+}
+
+.contactPageDiv {
+    padding: 2em 0;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     color: var(--main-dark-text);
-}
-
-.contactHeader {
-    margin-top: 2.75em;
+    position: fixed;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .contactForm {
@@ -37,11 +49,18 @@
 
 .formSubmit {
     background-color: var(--main-dark-text);
-    border: none;
+    border: 2px solid var(--main-dark-text);
     color: white;
     border-radius: 5px;
     width: 50%;
     margin: 1em 0;
     padding: 1em;
     cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.formSubmit:hover { 
+    color: var(--main-dark-text);
+    background-color: white;
+    transition: .3s ease-in-out;
 }
