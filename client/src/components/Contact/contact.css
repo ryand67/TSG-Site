@@ -66,5 +66,7 @@
 }
 
 .contact-exit {
+    padding-left: 2em;
     cursor: pointer;
+    text-align: left;
 }
