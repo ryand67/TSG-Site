@@ -32,7 +32,7 @@ function App() {
         <Nav handleNavContact={contactCallback} />
         {stateNavContact ? <Contact handleNavContactClose={contactCloseCallback} /> : ''}
         <Route exact path="/">
-          <Hero title="Travel Sales Group" desc="“And the purpose of life, after all, is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.” — Eleanor Roosevelt" hrVisible={true} pictures={placeHolderPictures} />
+          <Hero title="TravelSalesGroup" desc="“And the purpose of life, after all, is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.” — Eleanor Roosevelt" hrVisible={true} pictures={placeHolderPictures} />
           <ServiceCardSection />
           <OurTeamSection />
           <Footer />
