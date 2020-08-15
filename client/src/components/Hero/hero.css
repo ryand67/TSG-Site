@@ -7,7 +7,7 @@
     background-attachment: fixed;
     background-position: 50% 50%;
     text-align: center;
-    /* transition: .25s; */
+    transition: .25s;
 }
 
 .heroShader {
@@ -67,4 +67,10 @@
     background-color: white;
     transition: .3s ease-in-out;
     color: var(--main-dark-text);
+}
+
+@media only screen and (max-width: 400px) {
+    .main-title {
+        font-size: 2em;
+    }
 }

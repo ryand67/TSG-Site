@@ -52,3 +52,9 @@
     color: var(--main-dark-text);
     text-decoration: none;
 }
+
+@media only screen and (max-width: 1500px) {
+    .teamCardContainer {
+        font-size: 1.2em;
+    }
+}

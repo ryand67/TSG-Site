@@ -15,7 +15,7 @@ export default function(props) {
     return (
         <div className="contactShader">
             <div className="contactPageDiv">
-                <i onClick={() => props.exitFunc()} className="fas fa-times contact-exit"></i>
+                {props.handleContactClose ? <i onClick={() => props.exitFunc()} className="fas fa-times contact-exit"></i> : <i onClick={() => props.handleNavContactClose()} className="fas fa-times contact-exit"></i>}
                 <h1 className="contactHeader">Contact Us:</h1>
                 <form action="https://formspree.io/mlepvaey" method="POST" className="contactForm" onSubmit={() => handleFormSubmit()}>
                     <label htmlFor="formNameInput">Name:</label>
