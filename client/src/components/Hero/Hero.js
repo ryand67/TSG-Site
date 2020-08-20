@@ -20,7 +20,7 @@ const Hero = (props) => {
 
             setCurrentImage(props.pictures[counter]);
 
-        }, 5000);
+        }, 6000);
     }, [])
 
     const howWeWorkButton = () => {
