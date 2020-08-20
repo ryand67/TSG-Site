@@ -3,7 +3,7 @@
     padding-left: 1em;
     padding-bottom: .5em;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     color: white;
     align-items: center;
     display: flex;
@@ -71,4 +71,12 @@
 .navList:hover .navItem:hover:before {
     transform: scaleX(1);
     transition: .25s ease-in-out;
+}
+
+.navHidden {
+    display: none;
+}
+
+@media only screen and (max-width: 520px) {
+
 }

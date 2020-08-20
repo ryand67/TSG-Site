@@ -70,3 +70,24 @@
     cursor: pointer;
     text-align: left;
 }
+
+@media only screen and (max-width: 450px) {
+    .contactPageDiv {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .contactform {
+        width: 100%;
+    }
+
+    .contactForm input {
+        width: 100%;
+    }
+
+    .contactForm textarea {
+        width: 100%;
+    }
+}

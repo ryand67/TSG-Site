@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './nav.css';
 import navLogo from '../../Assets/TSGLogoNoTextPNG.png';
 import { HashLink as Link } from 'react-router-hash-link';
-import Contact from '../Contact/Contact';
 
 const Nav = (props) => {
 
@@ -22,7 +21,7 @@ const Nav = (props) => {
         <nav className={isTop || window.location.pathname === '/contact' ? 'navBar navBarBottom' : 'navBar'} >
             <img src={navLogo} alt="" className="navLogo" onClick={() => handleLogoClick()}/>
             
-            <ul className="navList">
+            <ul className="navList"> 
                 <Link smooth to={window.location.pathname === '/' ? "#serviceCardSection" : "/#serviceCardSection"} className="navLink navItem">
                     <li>Services</li>
                 </Link>
@@ -31,7 +30,6 @@ const Nav = (props) => {
                     <li>Our Agents</li>
                 </Link>
 
-                
                 <li className="navLink navItem" onClick={() => props.handleNavContact()}>Contact Us</li>
 
                 <li className="navItem"><a href="https://www.vacationcrm.com/IFrameRegistration?lookup_id=9A1FBE78-6356-4091-A53B-EBCEFA51D759" target="_blank">Client Info Form</a></li>
