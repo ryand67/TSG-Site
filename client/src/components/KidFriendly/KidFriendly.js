@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function() {
 
-    const [currentCountry, setCountry] = React.useState('Riviera Maya/Cancun');
+    const [currentCountry, setCountry] = useState('Riviera Maya/Cancun');
+    const [currentWindowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    window.addEventListener('resize', () => {
+        setWindowWidth(window.innerWidth);
+    })
 
     const cancunLinks = ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.370957699725179&show_text=true&width=552&height=716&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.368619976625618&show_text=true&width=552&height=830&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.743295289158083&show_text=true&width=552&height=823&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.736480499839562&show_text=true&width=552&height=668&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.370324626455153&show_text=true&width=552&height=792&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.361200884034194&show_text=true&width=552&height=792&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.369631643191118&show_text=true&width=552&height=811&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.379974178823531&show_text=true&width=552&height=754&appId', 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.348374485316834&show_text=true&width=552&height=792&appId']
 
@@ -41,7 +46,7 @@ export default function() {
     
     const loadAlbums = (arr) => {
         let result = arr.map((item, i) => {
-            return <iframe key={i} src={item} width="552" height="792" style={iframeStyle} scrolling="no" frameBorder="0"  allow="encrypted-media"></iframe>
+            return <iframe key={i} src={item} width={window.innerWidth > 575 ? "552" : "325"} height="792" style={iframeStyle} scrolling="no" frameBorder="0"  allow="encrypted-media"></iframe>
         })
         return result;
     }
