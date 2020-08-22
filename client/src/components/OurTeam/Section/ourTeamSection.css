@@ -1,7 +1,10 @@
 .ourTeamSection {
+    background-image: url('https://scontent-bos3-1.xx.fbcdn.net/v/t31.0-8/13710464_660295904124689_4906900436194295734_o.jpg?_nc_cat=110&_nc_sid=cdbe9c&_nc_ohc=ANmDZ0fxU-MAX8h5-Eh&_nc_ht=scontent-bos3-1.xx&oh=74bd7340a4c7ad1097a2858db67f973d&oe=5F671689');
     color: var(--main-dark-text);
+    background-repeat: none;
+    background-size: cover;
     text-align: center;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 3.75em;
     display: flex;
@@ -11,14 +14,14 @@
 
 .teamSectionHeader {
     font-size: 2.5em;
-    color: var(--main-dark-text);
+    color: white;
 }
 
 .teamSectionHr {
     border: none;
     width: 10%;
     height: .2em;
-    background-color: var(--main-dark-text);
+    background-color: white;
     margin: 0 auto;
 }
 
