@@ -47,8 +47,8 @@ const ServiceCardSection = () => {
 
     return (
         <div className="serviceCardSection" id="serviceCardSection">
-            <h2 className="teamSectionHeader">Services</h2>
-            <hr className="teamSectionHr"/>
+            <h2 className="serviceSectionHeader">Services</h2>
+            <hr className="serviceSectionHr"/>
             <div className="serivceCardContainer">
                 {services.map((item, i) => {
                     if(i < 4) {

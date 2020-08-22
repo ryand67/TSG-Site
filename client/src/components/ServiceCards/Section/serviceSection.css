@@ -11,6 +11,15 @@
 
 .serviceCardSection hr {
     margin-bottom: 1em;
+    color: var(--main-dark-text);
+}
+
+.serviceSectionHr {
+    border: none;
+    width: 10%;
+    height: .2em;
+    background-color: var(--main-dark-text);
+    margin: 0 auto;
 }
 
 .serivceCardContainer {

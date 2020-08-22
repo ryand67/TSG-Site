@@ -1,6 +1,6 @@
 .hero {
     width: 100vw;
-    height: 35em;
+    height: 100vh;
     /* background-image: url('../../placeholderPictures/resortPlaceholder.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
