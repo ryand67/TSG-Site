@@ -58,7 +58,7 @@ const OurTeamSection = () => {
             </div>
             <div className="cardContainer">
             {agents.map((item, i) => {
-                    if(i > 3) {
+                    if(i > 2) {
                         return makeCard(item, i);
                     }
                 })}
