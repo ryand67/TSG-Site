@@ -11,6 +11,7 @@ import HoneymoonBody from './components/HoneymoonBody/HoneymoonBody';
 import AdultsOnly from './components/AdultsOnly/AdultsOnly';
 import KidFriendly from './components/KidFriendly/KidFriendly';
 import Contact from './components/Contact/Contact';
+import Meetings from './components/Meetings/Meetings';
 
 function App() {
 
@@ -60,6 +61,11 @@ function App() {
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Traveling w/ Tots" desc="" pictures={placeHolderPictures} hrVisible={false} />
           <KidFriendly />
           <Footer />
+        </Route>
+
+        <Route exact path="/meetings">
+          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Best Meeting Ever" desc="We specialize in handling all of the specifics for your meeting or incentive group.  We handle everything from helping you find the perfect destination and resort to planning the events and menus with our contacts on property.  We can even accompany your group to oversee all of the those little details so that your employees can enjoy the whole event instead of worrying about following up on all those particulars." pictures={placeHolderPictures} hrVisible={true} />
+          <Meetings />
         </Route>
       </div>
     </Router>

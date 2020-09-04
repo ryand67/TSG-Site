@@ -11,7 +11,8 @@ const ServiceCardSection = () => {
     }, {
         picture: 'https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/p720x720/62049806_1381822131972059_4525127081494839296_o.jpg?_nc_cat=102&_nc_sid=e007fa&_nc_ohc=97HnCsQ5g_kAX_u6J_1&_nc_ht=scontent-mia3-2.xx&_nc_tp=6&oh=8800c4caf8df5b363b4447860931154b&oe=5F5CBD4C',
         title: "Best Meeting Ever!",
-        desc: "Business Travel and Fabulous Groups"
+        desc: "Business Travel and Fabulous Groups",
+        urlLocation: "/meetings"
     }, {
         picture: 'https://scontent-mia3-2.xx.fbcdn.net/v/t31.0-8/14712952_714401338714145_144512781175773352_o.jpg?_nc_cat=109&_nc_sid=e007fa&_nc_ohc=lq3GSS7uxRAAX-03fxd&_nc_ht=scontent-mia3-2.xx&oh=6a99b3362fc10489d44dd2da8d289485&oe=5F5C152E',
         title: `Grown Up Time`,
