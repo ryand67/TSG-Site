@@ -32,7 +32,7 @@ const ServiceCardSection = () => {
         desc: 'Explore the World In'
     }, {
         picture: 'https://scontent-mia3-2.xx.fbcdn.net/v/t31.0-8/10505209_350113041809645_3694981853483508768_o.jpg?_nc_cat=110&_nc_sid=e007fa&_nc_ohc=8qmIO9fAZtcAX9tVEa1&_nc_ht=scontent-mia3-2.xx&oh=8cbac3bda4fc044971d0adfb5d114d9f&oe=5F5A8B31',
-        title: 'Travelling w/ Tots',
+        title: 'Travelling w/ Tots or Teens',
         desc: 'Luxury Family Travel',
         urlLocation: '/kid-friendly'
     }, {
