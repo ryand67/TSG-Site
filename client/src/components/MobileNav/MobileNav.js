@@ -3,8 +3,8 @@ import { NavBar } from 'react-bootstrap';
 
 export default function MobileNav() {
     return (
-        <div>
-            
-        </div>
+        <nav className="mobileNav">
+
+        </nav>
     )
 }
