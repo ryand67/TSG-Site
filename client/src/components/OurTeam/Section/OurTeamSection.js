@@ -1,6 +1,7 @@
 import React from 'react';
 import './ourTeamSection.css';
 import TeamCard from '../TeamCard/TeamCard';
+import NewTeamCard from '../newTeamCard/newTeamCard';
 
 const OurTeamSection = () => {
     const agents = [{
@@ -30,7 +31,7 @@ const OurTeamSection = () => {
     },{
         name: 'Andi Dowell',
         picture: 'http://nebula.wsimg.com/bcdcc7370cb49e88f0d974a98012a876?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
-        desc: 'Cruises are her passion',
+        desc: 'Cruises are her passion.',
         phone: '620-204-0134',
         email: '​Andi@TravelSalesGroup.com'
     },{
@@ -42,13 +43,14 @@ const OurTeamSection = () => {
     },]
 
     const makeCard = (item, i) => {
-        return <TeamCard key={i} name={item.name} picture={item.picture} desc={item.desc} phone={item.phone} email={item.email} />
+        return <NewTeamCard key={i} name={item.name} picture={item.picture} desc={item.desc} phone={item.phone} email={item.email} />
     }
 
     return(
         <div className="ourTeamSection" id='ourTeamSection'>
             <h2 className="teamSectionHeader">Our Agents</h2>
             <hr className="teamSectionHr"/>
+            {/* <newTeamCard /> */}
             <div className="cardContainer">
                 {agents.map((item, i) => {
                     if(i < 3) {

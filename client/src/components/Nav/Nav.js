@@ -18,7 +18,7 @@ const Nav = (props) => {
     }, [])
 
     return (
-        <nav className={isTop || window.location.pathname === '/contact' ? 'navBar navBarBottom' : 'navBar'} >
+        <nav className={isTop || window.location.pathname === '/contact' || window.location.pathname === '/team' ? 'navBar navBarBottom' : 'navBar'} >
             <img src={navLogo} alt="" className="navLogo" onClick={() => handleLogoClick()}/>
             
             <ul className="navList"> 
