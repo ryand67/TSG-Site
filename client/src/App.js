@@ -68,6 +68,10 @@ function App() {
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Best Meeting Ever" desc="We specialize in handling all of the specifics for your meeting or incentive group.  We handle everything from helping you find the perfect destination and resort to planning the events and menus with our contacts on property.  We can even accompany your group to oversee all of the those little details so that your employees can enjoy the whole event instead of worrying about following up on all those particulars." pictures={placeHolderPictures} hrVisible={true} />
           <Meetings />
         </Route>
+
+        <Route exact path="/team">
+          <TeamPage />
+        </Route>
       </div>
     </Router>
   );

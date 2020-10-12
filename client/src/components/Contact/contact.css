@@ -79,8 +79,8 @@
         border-radius: 0;
     }
 
-    .contactform {
-        width: 100%;
+    .contactForm {
+        width: 75%;
     }
 
     .contactForm input {
@@ -88,6 +88,12 @@
     }
 
     .contactForm textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .contactForm {
         width: 100%;
     }
 }
