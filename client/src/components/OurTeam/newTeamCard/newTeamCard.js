@@ -21,6 +21,7 @@ const useStyles = makeStyles({
 
 export default function MediaCard( props ) {
   const classes = useStyles();
+  const urlName = props.name.split(' ').join('-')
 
   return (
     <Card className={classes.root}>
@@ -42,10 +43,12 @@ export default function MediaCard( props ) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button className="newTeamCardButton" size="small" color="primary">
-          Share
+        <Button className="newTeamCardButton" size="small" color="primary" onClick={() => {
+            window.open(`mailto:${props.email}`, '_blank')
+        }}>
+          Contact
         </Button>
-        <Button className="newTeamCardButton" size="small" color="primary">
+        <Button className="newTeamCardButton" size="small" color="primary" onClick={() => window.location.replace(`/team/#${urlName}`)}>
           Learn More
         </Button>
       </CardActions>

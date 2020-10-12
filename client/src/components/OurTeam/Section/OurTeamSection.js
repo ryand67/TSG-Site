@@ -40,7 +40,7 @@ const OurTeamSection = () => {
         desc: 'Specialties include AMAWaterways River Cruises, Viking River Cruises, Golf and Fishing Trips, European Adventures',
         phone: '518-369-5730',
         email: 'Frank@TravelSalesGuy.com'
-    },]
+    }]
 
     const makeCard = (item, i) => {
         return <NewTeamCard key={i} name={item.name} picture={item.picture} desc={item.desc} phone={item.phone} email={item.email} />
