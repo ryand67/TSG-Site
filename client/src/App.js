@@ -13,6 +13,7 @@ import KidFriendly from './components/KidFriendly/KidFriendly';
 import Contact from './components/Contact/Contact';
 import Meetings from './components/Meetings/Meetings';
 import TeamPage from './components/TeamPage/TeamPage';
+import realHeroPics from './components/RealHeroPics';
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
         <Nav handleNavContact={contactCallback} />
         {stateNavContact ? <Contact handleNavContactClose={contactCloseCallback} /> : ''}
         <Route exact path="/">
-          <Hero title="TravelSalesGroup" desc="“And the purpose of life, after all, is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.” — Eleanor Roosevelt" hrVisible={true} pictures={placeHolderPictures} />
+          <Hero title="TravelSalesGroup" desc="“And the purpose of life, after all, is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.” — Eleanor Roosevelt" hrVisible={true} pictures={realHeroPics} />
           <ServiceCardSection />
           <OurTeamSection />
           <Footer />
