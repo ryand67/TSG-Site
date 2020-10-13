@@ -13,7 +13,6 @@ import KidFriendly from './components/KidFriendly/KidFriendly';
 import Contact from './components/Contact/Contact';
 import Meetings from './components/Meetings/Meetings';
 import TeamPage from './components/TeamPage/TeamPage';
-import * as realPictures from './Assets/RealHeroPictures';
 
 function App() {
 
