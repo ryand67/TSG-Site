@@ -7,6 +7,11 @@
     text-align: left;
 }
 
+.newTeamCardDescHeatherMobile {
+    font-size: 1.5em !important;
+    text-align: left;
+}
+
 .newTeamCardMain {
     height: 210px;
 }
@@ -18,5 +23,10 @@
 @media only screen and (max-width: 400px) {
     .newTeamCard {
         width: 80%;
+    }
+
+    .newTeamCardDescHeatherMobile {
+        font-size: 1.2em !important;
+        text-align: left;
     }
 }

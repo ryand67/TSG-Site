@@ -35,7 +35,7 @@ export default function MediaCard( props ) {
           <Typography gutterBottom variant="h5" component="h2">
             {props.name}
           </Typography>
-          <Typography variant="body2" color="textSecondary" className="newTeamCardDesc" component="p">
+          <Typography variant="body2" color="textSecondary" className={props.name === "Heather DiPietro" ? "newTeamCardDescHeatherMobile" : "newTeamCardDesc"} component="p">
             {props.desc}
           </Typography>
         </CardContent>
