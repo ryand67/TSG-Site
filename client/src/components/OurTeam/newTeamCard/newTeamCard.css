@@ -1,9 +1,10 @@
-.newTeamCardDesc {
-    text-align: left;
+.newTeamCard {
+    width: 450px;
+    margin: .5em;
 }
 
-.newTeamCardPicture {
-    
+.newTeamCardDesc {
+    text-align: left;
 }
 
 .newTeamCardMain {
@@ -12,4 +13,10 @@
 
 .newTeamCardButton {
     
+}
+
+@media only screen and (max-width: 400px) {
+    .newTeamCard {
+        width: 80%;
+    }
 }

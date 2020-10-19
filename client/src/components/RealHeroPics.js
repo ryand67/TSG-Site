@@ -10,6 +10,6 @@ import photo9 from '../Assets/RealHeroPictures/9.jpg';
 import photo10 from '../Assets/RealHeroPictures/10.jpg';
 import photo11 from '../Assets/RealHeroPictures/11.jpg';
 
-const picArray = [photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11]
+const picArray = [photo4, photo2, photo3, photo1, photo5, photo6, photo7, photo8, photo9, photo10, photo11]
 
 export default picArray;

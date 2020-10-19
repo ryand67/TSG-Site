@@ -10,26 +10,24 @@ import Typography from '@material-ui/core/Typography';
 import './newTeamCard.css';
 
 const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
   media: {
-    height: 200,
-    width: 350
+    height: 250,
+    width: '100%'
   },
 });
 
 export default function MediaCard( props ) {
+
   const classes = useStyles();
   const urlName = props.name.split(' ').join('-')
 
   return (
-    <Card className={classes.root}>
+    <Card className="newTeamCard">
       <CardActionArea>
         <CardMedia
           className={`${classes.media}`}
           image={props.picture}
-          title="Contemplative Reptile"
+          title={props.name}
         />
         <CardContent onClick={() => {
             window.location.replace('/team')
