@@ -12,7 +12,8 @@ import './newTeamCard.css';
 const useStyles = makeStyles({
   media: {
     height: 250,
-    width: '100%'
+    width: '100%',
+    paddingTop: 100
   },
 });
 
