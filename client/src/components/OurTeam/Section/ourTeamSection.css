@@ -13,15 +13,15 @@
 }
 
 .teamSectionHeader {
-    font-size: 2.5em;
-    color: white;
+    font-size: 4em;
+    color: var(--main-dark-text);
 }
 
 .teamSectionHr {
     border: none;
     width: 10%;
     height: .2em;
-    background-color: white;
+    background-color: var(--main-dark-text);
     margin: 0 auto;
 }
 
