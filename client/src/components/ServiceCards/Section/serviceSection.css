@@ -28,6 +28,11 @@
     justify-content: center;
 }
 
+.serviceSectionHeader {
+    font-size: 4em;
+    color: var(--main-dark-text)
+}
+
 @media only screen and (max-width: 1150px) {
     .serivceCardContainer {
         flex-direction: column;

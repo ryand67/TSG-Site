@@ -24,7 +24,7 @@ export default function MediaCard( props ) {
 
   return (
     <Card className="newTeamCard">
-      <CardActionArea>
+      <CardActionArea onClick={() => window.location.replace(`/team/#${urlName}`)}>
         <CardMedia
           className={`${classes.media}`}
           image={props.picture}
@@ -47,7 +47,7 @@ export default function MediaCard( props ) {
         }}>
           Contact
         </Button>
-        <Button className="newTeamCardButton" size="small" color="primary" onClick={() => window.location.replace(`/team/#${urlName}`)}>
+        <Button className="newTeamCardButton" size="small" color="primary" >
           Learn More
         </Button>
       </CardActions>
