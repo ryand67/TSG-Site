@@ -12,7 +12,8 @@
 }
 
 .navBarBottom {
-    background-color: var(--main-dark-text);
+    /* background-color: var(--main-dark-text); */
+    background-color: var(--main-light-blue);
     transition: .5s ease-in-out;
 }
 
