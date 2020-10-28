@@ -2,3 +2,19 @@
     height: 100%;
     width: 100%;
 }
+
+.teamPageHeader {
+    padding-top: 1.5em;
+    text-align: center;
+    color: var(--main-dark-text);
+    font-size: 3em;
+}
+
+.teamPageHr {
+    color: var(--main-dark-text);
+    width: 5%;
+    margin: 0 auto;
+    height: 3px;
+    border: none;
+    background-color: var(--main-dark-text);
+}
