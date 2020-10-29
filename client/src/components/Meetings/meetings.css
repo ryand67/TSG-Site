@@ -1,0 +1,11 @@
+.meetingsDiv {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.meetingsPic {
+    margin: 1em auto;
+    width: 25%;
+}

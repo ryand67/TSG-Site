@@ -66,7 +66,7 @@ function App() {
         </Route>
 
         <Route exact path="/meetings">
-          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Best Meeting Ever" desc="We specialize in handling all of the specifics for your meeting or incentive group.  We handle everything from helping you find the perfect destination and resort to planning the events and menus with our contacts on property.  We can even accompany your group to oversee all of the those little details so that your employees can enjoy the whole event instead of worrying about following up on all those particulars. Reach out to us to get started planning your event Info@TravelSalesGroup.com or 888-382-8847, option 1" pictures={realHeroPics} hrVisible={true} />
+          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Best Meeting Ever" desc="We specialize in handling all of the specifics for your meeting or incentive group.  We handle everything from helping you find the perfect destination and resort to planning the events and menus with our contacts on property.  We can even accompany your group to oversee all of the those little details so that your employees can enjoy the whole event instead of worrying about following up on all those particulars. Reach out to us to get started planning your event Info@TravelSalesGroup.com or 888-382-8847, option 1." pictures={realHeroPics} hrVisible={true} />
           <Meetings />
         </Route>
 

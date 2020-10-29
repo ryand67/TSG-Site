@@ -1,4 +1,5 @@
 import React from 'react';
+import './meetings.css';
 
 export default () => {
 
@@ -6,7 +7,9 @@ export default () => {
 
     return (
         <div className="meetingsDiv">
-             
+            {meetingsPics.map(img => {
+                return <img src={img} className="meetingsPic" />
+            })}
         </div>
     )
 }
