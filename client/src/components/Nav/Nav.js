@@ -19,7 +19,11 @@ const Nav = (props) => {
 
     return (
         <nav className={isTop || window.location.pathname === '/contact' || window.location.pathname === '/team' ? 'navBar navBarBottom' : 'navBar'} >
-            <img src={navLogo} alt="" className="navLogo" onClick={() => handleLogoClick()}/>
+            <div className="navLeft">
+                <img src={navLogo} alt="" className="navLogo" onClick={() => handleLogoClick()}/>
+                <p className="navContact">888-382-8847</p>
+                <p className="navContact navEmail" onClick={() => props.handleNavContact()}>info@TravelSalesGroup.com</p>
+            </div>
             
             <ul className="navList"> 
                 <Link smooth to={window.location.pathname === '/' ? "#serviceCardSection" : "/#serviceCardSection"} className="navLink navItem">

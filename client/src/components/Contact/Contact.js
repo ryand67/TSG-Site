@@ -25,7 +25,7 @@ export default function(props) {
                     <label htmlFor="formEmailInput">Phone Number:</label>
                     <input required type="tel" placeholder="1234567890" name="formEmailInput" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" onChange={(e) => setPhone(e.target.value)}/>
                     <label htmlFor="formMessageTextArea">Message:</label>
-                    <textarea required name="formMessageTextArea" placeholder="Write your message here" cols="30" rows="10" onChange={(e) => setMessage(e.target.value)}></textarea>
+                    <textarea required name="formMessageTextArea" placeholder="Write your message here." cols="30" rows="10" onChange={(e) => setMessage(e.target.value)}></textarea>
                     <button type="submit" className="formSubmit" onClick={() => handleFormSubmit()}>Submit</button>
                 </form>
             </div>
