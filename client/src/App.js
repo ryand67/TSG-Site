@@ -72,6 +72,7 @@ function App() {
         </Route>
 
         <Route exact path="/rolling-on-the-river">
+          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContactClose={contactCallback} title="Rolling on the River" pictures={realHeroPics} hrVisible={false} />
           <River />
         </Route>
 
