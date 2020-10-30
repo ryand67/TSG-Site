@@ -31,7 +31,8 @@ const ServiceCardSection = () => {
     }, {
         picture: servicePictures[5],
         title: 'Rolling On The River',
-        desc: 'Explore the World In'
+        desc: 'Explore the World In',
+        urlLocation: '/rolling-on-the-river'
     }, {
         picture: servicePictures[6],
         title: 'Travelling w/ Tots or Teens',
