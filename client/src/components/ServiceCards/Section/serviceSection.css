@@ -29,6 +29,7 @@
 }
 
 .serviceSectionHeader {
+    margin-top: 1.25em;
     font-size: 3em;
     color: var(--main-dark-text)
 }
