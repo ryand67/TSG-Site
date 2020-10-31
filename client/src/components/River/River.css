@@ -21,12 +21,32 @@
 }
 
 .riverLogo {
-    width: 25%;
+    width: 65%;
     margin: 0 1em;
 }
 
 .riverLogoDiv {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .riverLogoDiv {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .riverLogo {
+        width: 90%;
+        margin-top: .6em;
+    }
+
+    .RiverPage p {
+        text-align: left;
+        font-size: 1.1em;
+    }
 }

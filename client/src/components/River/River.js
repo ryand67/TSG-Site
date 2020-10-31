@@ -19,10 +19,10 @@ export default function River() {
             </ol>
             <p>Contact our agency river cruise specialist, Heather Di Pietro at 518-885-8035, 888-382-8847 or <span><a href="mailto:heather@travelsalesgirl.com" className="riverEmailLink">heather@travelsalesgirl.com</a></span> for more info or to get your river adventure on the books. </p>
             <div className="riverLogoDiv">
-                <img src={logo1} alt="" className="riverLogo"/>
-                <img src={logo2} alt="" className="riverLogo"/>
-                <img src={logo3} alt="" className="riverLogo"/> 
-                <img src={logo4} alt="" className="riverLogo"/> 
+                <img src={logo1} alt="" className="riverLogo" />
+                <img src={logo2} alt="" className="riverLogo" />
+                <img src={logo3} alt="" className="riverLogo" />
+                <img src={logo4} alt="" className="riverLogo" />
             </div>
         </div>
     )
