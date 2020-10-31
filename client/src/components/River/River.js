@@ -1,5 +1,9 @@
 import React from 'react';
 import './River.css';
+import logo1 from '../../Assets/RiverLogos/crystalCruises.png';
+import logo2 from '../../Assets/RiverLogos/uniworldCruises.png';
+import logo3 from '../../Assets/RiverLogos/vikingCruises.jpg';
+import logo4 from '../../Assets/RiverLogos/AmaWaterways.jpg';
 
 export default function River() {
     return (
@@ -14,6 +18,12 @@ export default function River() {
                 <li className="riverListItem">Smaller ships also means more options.  You can explore the Rhine, the Danube, the Douro, the Seine, the Mekong or even Africa.</li>
             </ol>
             <p>Contact our agency river cruise specialist, Heather Di Pietro at 518-885-8035, 888-382-8847 or <span><a href="mailto:heather@travelsalesgirl.com" className="riverEmailLink">heather@travelsalesgirl.com</a></span> for more info or to get your river adventure on the books. </p>
+            <div className="riverLogoDiv">
+                <img src={logo1} alt="" className="riverLogo"/>
+                <img src={logo2} alt="" className="riverLogo"/>
+                <img src={logo3} alt="" className="riverLogo"/> 
+                <img src={logo4} alt="" className="riverLogo"/> 
+            </div>
         </div>
     )
 }

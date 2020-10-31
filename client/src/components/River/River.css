@@ -14,3 +14,19 @@
     text-decoration: none;
     color: var(--main-dark-text)
 }
+
+.RiverPage p {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.riverLogo {
+    width: 25%;
+    margin: 0 1em;
+}
+
+.riverLogoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
