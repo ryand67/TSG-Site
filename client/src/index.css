@@ -19,6 +19,8 @@ html {
     width: 100vw;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(240, 240, 240);
 }
 
 .siteContainer {

@@ -7,8 +7,7 @@
 }
 
 .teamPageHeader {
-    padding-top: .75em;
-    padding-bottom: .75em;
+    padding-top: .5em;
     text-align: center;
     color: var(--main-dark-text);
     font-size: 4em;

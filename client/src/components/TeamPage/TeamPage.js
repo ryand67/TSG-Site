@@ -20,7 +20,8 @@ export default function TeamPage() {
         phone: 'Direct Line: 215-491-4308',
         email: 'Jenn@TravelSalesGal.com',
         favDest: 'Her favorite destinations:  Mexico and Punta Cana',
-        picture: 'http://nebula.wsimg.com/fe29e37c665b9f697ec41d92c4a72afc?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
+        picture: 'http://nebula.wsimg.com/fe29e37c665b9f697ec41d92c4a72afc?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        urlId: 'Jenn-McDonald'
     }, {
         name: 'Tanya Nghiem',
         role: 'Travel Consultant',
@@ -28,7 +29,8 @@ export default function TeamPage() {
         phone: 'Direct Line: 267-483-5767',
         email: 'Tanya@TravelSalesGroup.com',
         favDest: 'Favorite Destinations:  Walt Disney World and Aula',
-        picture: 'http://nebula.wsimg.com/2b524f8b906a39d32a0d87a98dd4af09?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
+        picture: 'http://nebula.wsimg.com/2b524f8b906a39d32a0d87a98dd4af09?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        urlId: 'Tanya-Nghiem'
     }, {
         name: 'Frank DiPietro',
         role: 'Travel Consultant',
@@ -36,7 +38,8 @@ export default function TeamPage() {
         phone: 'Direct Line: 518-369-5730',
         email: 'Frank@TravelSalesGuy.com',
         favDest: 'Favorite Destinations:  St Martin, Switzerland, the USVI and Mexico',
-        picture: 'http://nebula.wsimg.com/3bc090a71f1995ea99f324bb19a638c1?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
+        picture: 'http://nebula.wsimg.com/3bc090a71f1995ea99f324bb19a638c1?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        urlId: 'Frank-DiPietro'
     }, {
         name: 'Coral Staton',
         role: 'Travel Consultant',
@@ -44,20 +47,22 @@ export default function TeamPage() {
         phone: '​Direct Line: 770-272-5397​',
         email: 'Coral@TravelSalesGroup.com',
         favDest: 'Favorite destinations:  Belize, Costa Rica, Mexico and Thailand',
-        picture: 'http://nebula.wsimg.com/c2324c57cfe64fe81b576e3c68b0c531?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
+        picture: 'http://nebula.wsimg.com/c2324c57cfe64fe81b576e3c68b0c531?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        urlId: 'Coral-Staton'
     }, {
         name: 'Andi Dowell',
         role: 'Travel Consultant',
         desc: "Andi fell in love with travel with her first trip abroad to Sweden.  Ever since then she's been hooked! Growing up in small town Kansas, she always dreamed about experiencing other cultures and destinations, and now finally feels like she has the time to do so. As a recent college graduate, Andi enjoys coordinating events of all different kinds and hopes to expand her coordinating to travel. She has been training all things cruises! If you're interested in a cruise, Andi is your girl!",
         phone: 'Direct Line: 620-204-0134',
         email: 'Andi@TravelSalesGroup.com',
-        picture: 'http://nebula.wsimg.com/bcdcc7370cb49e88f0d974a98012a876?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
+        picture: 'http://nebula.wsimg.com/bcdcc7370cb49e88f0d974a98012a876?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        urlId: 'Andi-Dowell'
     }]
     
     return (
         <div className="teamPage">
             <h1 className="teamPageHeader">Our Team</h1>
-            {/* <hr className="teamPageHr"/> */}
+            <hr className="teamPageHr"/>
             {teamProfiles.map(agent => {
                 return <Profile agent={agent} />
             })}
