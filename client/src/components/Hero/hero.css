@@ -86,6 +86,6 @@
 
     .hero {
         background-position: center;
-        background-size: auto;
+        height: 100%;
     }
 }
