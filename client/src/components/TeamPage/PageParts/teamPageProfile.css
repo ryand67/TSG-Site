@@ -47,6 +47,15 @@
 @media only screen and (max-width: 1350px) {
     .teamPageProfile {
         flex-direction: column-reverse;
+        margin-bottom: 1em;
+    }
+
+    .teamPageText {
+        width: 80%;
+    }
+
+    .teamPagePicture {
+        width: 70%;
     }
 }
 
