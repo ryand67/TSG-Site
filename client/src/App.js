@@ -73,7 +73,7 @@ function App() {
         </Route>
 
         <Route exact path="/rolling-on-the-river">
-          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Rolling on the River" pictures={realHeroPics} hrVisible={false} />
+          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Rolling on the River" pictures={realHeroPics} hrVisible={true} desc="If you have not yet experienced the luxury and convenience of river cruising, here are a few reasons to give it a try." />
           <River />
           <Footer />
         </Route>
@@ -81,7 +81,7 @@ function App() {
         <Route exact path="/team">
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Meet Our Team" desc="Meet our team of agents ready to send you on the vacation of your dreams." pictures={realHeroPics} hrVisible={true} />
           <TeamPage />
-          <Footer />
+          {/* <Footer /> */}
         </Route>
       </div>
     </Router>

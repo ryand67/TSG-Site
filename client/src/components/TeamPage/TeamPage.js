@@ -13,6 +13,45 @@ export default function TeamPage() {
         email: 'Heather@TravelSalesGirl.com',
         picture: 'http://nebula.wsimg.com/e61c221b59247ac95a06f8473ead1f49?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
         urlId: 'Heather-DiPietro'
+    }, {
+        name: 'Jenn McDonald',
+        role: '​Managing Agent',
+        desc: 'Jenn is a Mom of three kids, who is very active in her community.  She started her career in travel almost 2 decades ago as a travel consultant for an online agency. She truly loves the relationships that she has built while helping families to build their dream vacations.  Whether it is their multi-generational family reunion, group vacation,  or that trip to the beach with the kids, our TravelSalesGal loves seeing her clients posts on social media, enjoying the custom trips that she plans. They often email when they get back from a fabulous trip to thank her for the special family memories created! Jenn is a specialist in all things Cancun, Riviera Maya, Punta Cana, Costa Rica, Maui, Tahiti, Bora Bora, and Fiji!  Her passion lies in creating group and family getaways to bring families closer together and create memories that will last a lifetime!',
+        phone: 'Direct Line: 215-491-4308',
+        email: 'Jenn@TravelSalesGal.com',
+        favDest: 'Her favorite destinations:  Mexico and Punta Cana',
+        picture: 'http://nebula.wsimg.com/fe29e37c665b9f697ec41d92c4a72afc?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
+    }, {
+        name: 'Tanya Nghiem',
+        role: 'Travel Consultant',
+        desc: 'Tanya is our expert on all things family, especially DISNEY! and Universal!  Her, her husband and their children travel to Disney Parks and Destinations at least 3 - 4 times a year.  There is noone out there that knows Disney better than Tanya.  She actually started as a friend and when we realized that she had this much Disney knowledge to share, we put her on the payroll.  She can book your dining reservations, arrange for your magic express transfers, make room requests, arrange calls from the Mouse himself and a myriad of other extras that Disney offers.  Reach out to Tanya today to get started on your family adventure!!  Walt Disney Travel Company College of Knowledge graduate, Universal Studios Specialist, Hawaiian Islands Master Specialist',
+        phone: 'Direct Line: 267-483-5767',
+        email: 'Tanya@TravelSalesGroup.com',
+        favDest: 'Favorite Destinations:  Walt Disney World and Aula',
+        picture: 'http://nebula.wsimg.com/2b524f8b906a39d32a0d87a98dd4af09?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
+    }, {
+        name: 'Frank DiPietro',
+        role: 'Travel Consultant',
+        desc: "Frank got his start in the agency while travelling and filming with our owner (who just happens to be his wife).  His heart and his heritage have always pulled him toward travel in Europe, the Mediterranean and any destination that offered adventure travel.  Frank's family is originally from Sicily, so his interest started with his Italian father and grandparents. They immigrated to the US when his Dad was a child.  He sought to learn all he could about the areas that had been his family's roots. He has become a true specialist in all things Mediterranean, especially in Italy, Sicily, Greece, and France!  His areas of expertise expanded into Germany and Croatia, then Spain and Ireland.  He also has become a certified specialist for Viking River Cruises, AMAWaterways, Seabourne, Crystal, and Silverseas.  Whether it be a wine tour, a special honeymoon in the beautiful blue waters of Santorini, an art tour of Paris, golfing on the Emerald Isle or biking through the Sound of Music tour, our TravelSalesGuy can make that dream a reality!",
+        phone: 'Direct Line: 518-369-5730',
+        email: 'Frank@TravelSalesGuy.com',
+        favDest: 'Favorite Destinations:  St Martin, Switzerland, the USVI and Mexico',
+        picture: 'http://nebula.wsimg.com/3bc090a71f1995ea99f324bb19a638c1?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
+    }, {
+        name: 'Coral Staton',
+        role: 'Travel Consultant',
+        desc: "Coral is no stranger to travel.  She began travelling the world at a very young age, exploring much of Mexico, South America, and Southern California in a volkswagen bus with her family!  Perhaps this is where Coral's passion for Health and Wellness / Adventure Travel came from!  Coral enjoys eco-tourism, ziplining, volcanic mud baths, spa trips, and horseback riding just for starters.  She specializes in planning adventure vacations like riding elephants in Thailand and Dive Tours in Belize.  Now, the Mom of two beautiful kids, Coral also has done her fair share of  yoga retreats and wellness groups at holistic resorts!  Looking for a little something different?  Coral is your girl!",
+        phone: '​Direct Line: 770-272-5397​',
+        email: 'Coral@TravelSalesGroup.com',
+        favDest: 'Favorite destinations:  Belize, Costa Rica, Mexico and Thailand',
+        picture: 'http://nebula.wsimg.com/c2324c57cfe64fe81b576e3c68b0c531?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
+    }, {
+        name: 'Andi Dowell',
+        role: 'Travel Consultant',
+        desc: "Andi fell in love with travel with her first trip abroad to Sweden.  Ever since then she's been hooked! Growing up in small town Kansas, she always dreamed about experiencing other cultures and destinations, and now finally feels like she has the time to do so. As a recent college graduate, Andi enjoys coordinating events of all different kinds and hopes to expand her coordinating to travel. She has been training all things cruises! If you're interested in a cruise, Andi is your girl!",
+        phone: 'Direct Line: 620-204-0134',
+        email: 'Andi@TravelSalesGroup.com',
+        picture: 'http://nebula.wsimg.com/bcdcc7370cb49e88f0d974a98012a876?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1'
     }]
     
     return (

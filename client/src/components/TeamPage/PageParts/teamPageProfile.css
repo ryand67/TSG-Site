@@ -5,6 +5,7 @@
     margin: 0 auto;
     color: var(--main-dark-text);
     align-items: center;
+    margin-bottom: 2em;
 }
 
 .teamPagePicture {
@@ -20,6 +21,11 @@
 .teamPageProfileName {
     text-align: left;
     margin: 0 auto;
+}
+
+.teamPageProfileRole {
+    font-size: 1.3em;
+    font-weight: 500;
 }
 
 .teamPageProfileHr {
