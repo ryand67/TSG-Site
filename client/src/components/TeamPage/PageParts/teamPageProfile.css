@@ -8,7 +8,8 @@
 }
 
 .teamPagePicture {
-    height: 50%;
+    height: auto;
+    width: 40%;
     margin: 0 1em;
 }
 
@@ -35,4 +36,10 @@
 
 .teamPageProfileContact {
     
+}
+
+@media only screen and (max-width: 1350px) {
+    .teamPageProfile {
+        flex-direction: column-reverse;
+    }
 }
