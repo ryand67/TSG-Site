@@ -11,8 +11,8 @@ export default function TeamPagePart( { agent } ) {
                     <hr className="teamPageProfileHr" />
                     <p className="teamPageProfileDesc">{agent.desc}</p>
                     <div className="teamPageProfileContact">
+                        <h4 onClick={() => window.open(`mailto:${agent.email}`, '_blank')}>{agent.email}</h4>
                         <h4>{agent.phone}</h4>
-                        <h4>{agent.email}</h4>
                     </div>
                 </div>
             </div>
