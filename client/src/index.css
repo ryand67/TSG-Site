@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Amazone';
+    src: url('./Assets/fonts/amazon.ttf')
+}
+
 :root {
     --main-dark-text: rgb(49, 49, 49);
     --main-light-blue: #49a4ff;

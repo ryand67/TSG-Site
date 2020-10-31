@@ -35,8 +35,13 @@
     font-size: 4em;
 }
 
+.amazoneText {
+    font-family: 'Amazone';
+}
+
 .main-text {
-    max-width: 60%;
+    font-size: 1.25em;
+    max-width: 70%;
     font-weight: 300;
     margin-bottom: 1em;
 }

@@ -40,7 +40,7 @@ const Hero = (props) => {
             {/* {contactUp ? <Contact exitFunc={exitButton}/> : ''} */}
             <div className="heroShader">
                 <div className="title-container">
-                    <h1 className="main-title">{props.title}</h1>
+                    <h1 className={window.location.pathname === '/' ? "main-title amazoneText" : "main-title"}>{props.title}</h1>
                     {props.hrVisible ? <hr className="heroHr"/> : false}
                     <h4 className="main-text">{props.desc}</h4>
                     {window.location.pathname === '/' ? <button className="heroButton" onClick={() => howWeWorkButton()}>How We Work</button> : <button className="heroButton" onClick={() => props.heroHandleContact()}>Contact</button>}
