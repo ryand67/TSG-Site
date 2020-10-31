@@ -74,7 +74,7 @@
     color: var(--main-dark-text);
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 840px) {
     .main-title {
         font-size: 2.3em;
     }
