@@ -24,14 +24,14 @@ export default function MediaCard( props ) {
 
   return (
     <Card className="newTeamCard">
-      <CardActionArea onClick={() => window.location.replace(`/team/#${urlName}`)}>
+      <CardActionArea>
         <CardMedia
           className={`${classes.media}`}
           image={props.picture}
           title={props.name}
         />
         <CardContent onClick={() => {
-            window.location.replace('/team')
+            window.location.replace(`/team/#${urlName}`)
         }} className="newTeamCardMain">
           <Typography gutterBottom variant="h5" component="h2">
             {props.name}
