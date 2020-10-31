@@ -43,3 +43,24 @@
         flex-direction: column-reverse;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .teamPageProfile {
+        width: 90%;
+    }
+
+    .teamPagePicture {
+        margin-top: .75em;
+        width: 75%;
+    }
+
+    .teamPageProfileDesc {
+        width: 80%;
+        font-size: .8em;
+    }
+
+    .teamPageText {
+        width: 90%;
+        height: auto;
+    }
+}
