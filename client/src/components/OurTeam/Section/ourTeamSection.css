@@ -41,4 +41,8 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .teamSectionHr {
+        width: 25%;
+    }
 }
