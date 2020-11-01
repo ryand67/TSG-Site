@@ -1,0 +1,25 @@
+.mobileNav {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    position: fixed;
+    width: 100vw;
+    color: white;
+    align-items: center;
+    display: flex;
+    transition: .4s ease-in-out;
+    z-index: 99;
+    justify-content: space-between;
+}
+
+.mobileNavLogo {
+    width: 2.25em;
+    filter: invert(100%);
+    cursor: pointer;
+    transform: scale(.93);
+    transition: .3s ease-in-out;
+}
+
+.mobileNavMenuButton {
+    margin-right: 4em;
+}

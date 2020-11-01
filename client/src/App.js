@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css'
 import Hero from './components/Hero/Hero';
@@ -15,10 +15,30 @@ import Meetings from './components/Meetings/Meetings';
 import River from './components/River/River';
 import TeamPage from './components/TeamPage/TeamPage';
 import realHeroPics from './components/RealHeroPics';
+import MobileNav from './components/MobileNav/MobileNav';
+import MobileNavModal from './components/MobileNav/MobileNavModal';
 
 function App() {
-
+  
   const placeholderHeroPics = ['https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2725&q=80', 'https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80', 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2787&q=80']
+
+  const [isMobileForNav, setNavMobile] = useState(window.innerWidth < 850);
+
+  useEffect(() => {
+    window.addEventListener('resize', () => {
+      setNavMobile(window.innerWidth < 850);
+    })
+  }, [])
+
+  const [openMobileMenu, setMobileMenuOpen] = React.useState(false);
+
+  const openMobileMenuCB = () => {
+    setMobileMenuOpen(true);
+  }
+
+  const closeMobileMenuCB = () => {
+    setMobileMenuOpen(false);
+  }
 
   const [stateNavContact, setContact] = React.useState(false);
 
@@ -33,8 +53,9 @@ function App() {
   return (
     <Router>
       <div className="siteContainer">
-        <Nav handleNavContact={contactCallback} />
+        {isMobileForNav ? <MobileNav openMobileMenuCB={openMobileMenuCB} handleClose={closeMobileMenuCB} /> : <Nav handleNavContact={contactCallback} />}
         {stateNavContact ? <Contact handleNavContactClose={contactCloseCallback} /> : ''}
+        {openMobileMenu ? <MobileNavModal /> : ''}
         <Route exact path="/">
           <Hero title="TravelSalesGroup" desc="“And the purpose of life, after all, is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.” — Eleanor Roosevelt" hrVisible={true} pictures={realHeroPics} />
           <ServiceCardSection />
