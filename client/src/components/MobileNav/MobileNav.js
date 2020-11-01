@@ -4,6 +4,14 @@ import navLogo from '../../Assets/TSGLogoNoTextPNG.png';
 import MobileMavModal from './MobileNavModal';
 
 export default function MobileNav( props ) {
+    const [isTop, setTop] = useState(false);
+
+    React.useEffect(() => {
+        window.addEventListener('scroll', () => {
+            setTop(window.scrollY > 500);
+        })
+    }, [])
+
     const [menuOpen, setMenu] = useState(false);
 
     const handleMobileMenu = (e) => {
@@ -20,8 +28,8 @@ export default function MobileNav( props ) {
     return (
         <>
         <nav className="mobileNav">
-            <img src={navLogo} alt="" className={menuOpen ? "mobileNavLogo2" : "mobileNavLogo"} onClick={() => window.location.replace('/')}/>
-            <button className="mobileNavMenuButton" onClick={(e) => handleMobileMenu(e)}>MENU</button>
+            <img src={navLogo} alt="" className={menuOpen || isTop ? "mobileNavLogo2" : "mobileNavLogo"} onClick={() => window.location.replace('/')}/>
+            <button className="mobileNavMenuButton" onClick={(e) => handleMobileMenu(e)}>MENU (temp button)</button>
         </nav>
         </>
     )

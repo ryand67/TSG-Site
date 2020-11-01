@@ -20,3 +20,8 @@
 .mobileNavListItem {
     margin: .5em 0;
 }
+
+.mobileNavLink {
+    text-decoration: none;
+    color: var(--main-dark-text);
+}

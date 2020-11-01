@@ -17,6 +17,7 @@
     filter: invert(95%);
     cursor: pointer;
     transform: scale(.93);
+    transition: .3s ease-in-out;
 }
 
 .mobileNavLogo2 {
@@ -24,6 +25,7 @@
     filter: invert(0%);
     cursor: pointer;
     transform: scale(.93);
+    transition: .3s ease-in-out;
 }
 
 .mobileNavMenuButton {
