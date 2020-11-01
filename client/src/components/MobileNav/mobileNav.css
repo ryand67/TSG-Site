@@ -1,6 +1,6 @@
 .mobileNav {
     padding-top: 1em;
-    padding-left: .3em;
+    padding-left: .5em;
     padding-bottom: .5em;
     position: fixed;
     width: 100vw;
@@ -14,7 +14,7 @@
 
 .mobileNavTop {
     padding-top: 1em;
-    padding-left: .3em;
+    padding-left: .5em;
     padding-bottom: .5em;
     position: fixed;
     width: 100vw;
