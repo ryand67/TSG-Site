@@ -1,6 +1,6 @@
 .mobileNav {
     padding-top: 1em;
-    padding-left: 1em;
+    padding-left: .3em;
     padding-bottom: .5em;
     position: fixed;
     width: 100vw;
@@ -12,8 +12,24 @@
     justify-content: space-between;
 }
 
+.mobileNavTop {
+    padding-top: 1em;
+    padding-left: .3em;
+    padding-bottom: .5em;
+    position: fixed;
+    width: 100vw;
+    color: white;
+    align-items: center;
+    display: flex;
+    transition: .4s ease-in-out;
+    z-index: 99;
+    justify-content: space-between;
+    background-color: var(--main-light-blue);
+}
+
 .mobileNavLogo {
-    width: 2.25em;
+    margin-left: 0;
+    width: 2em;
     filter: invert(95%);
     cursor: pointer;
     transform: scale(.93);
@@ -21,7 +37,8 @@
 }
 
 .mobileNavLogo2 {
-    width: 2.25em;
+    margin-left: 0;
+    width: 2em;
     filter: invert(0%);
     cursor: pointer;
     transform: scale(.93);
@@ -29,5 +46,5 @@
 }
 
 .mobileNavMenuButton {
-    margin-right: 4em;
+    margin-right: 2em;
 }
