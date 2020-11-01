@@ -14,10 +14,16 @@
 
 .mobileNavLogo {
     width: 2.25em;
-    filter: invert(100%);
+    filter: invert(95%);
     cursor: pointer;
     transform: scale(.93);
-    transition: .3s ease-in-out;
+}
+
+.mobileNavLogo2 {
+    width: 2.25em;
+    filter: invert(0%);
+    cursor: pointer;
+    transform: scale(.93);
 }
 
 .mobileNavMenuButton {
