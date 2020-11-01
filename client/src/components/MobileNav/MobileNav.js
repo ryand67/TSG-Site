@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './mobileNav.css';
 import navLogo from '../../Assets/TSGLogoNoTextPNG.png';
-import MobileMavModal from './MobileNavModal';
 
 export default function MobileNav( props ) {
     const [isTop, setTop] = useState(false);

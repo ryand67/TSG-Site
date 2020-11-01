@@ -7,12 +7,16 @@ export default function MobileNavModal( props ) {
     return (
         <div className="mobileNavModal">
             <ul className="mobileNavList">
-                <Link smooth to={window.location.pathname === '/' ? "#serviceCardSection" : "/#serviceCardSection"} onClick={() => props.closeMenu()} className="mobileNavLink">
+                <Link smooth to={window.location.pathname === '/' ? "#serviceCardSection" : "/#serviceCardSection"} onClick={() => {
+                    props.closeMenu()
+                    }} className="mobileNavLink">
                     <li className="mobileNavListItem">
                         Services
                     </li>
                 </Link>
-                <Link smooth to={window.location.pathname === '/' ? "#ourTeamSection" : "/#ourTeamSection"} onClick={() => props.closeMenu()} className="mobileNavLink">
+                <Link smooth to={window.location.pathname === '/' ? "#ourTeamSection" : "/#ourTeamSection"} onClick={() => {
+                    props.closeMenu()
+                    }} className="mobileNavLink">
                     <li className="mobileNavListItem">
                         Our Agents
                     </li>
