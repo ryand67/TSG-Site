@@ -49,14 +49,6 @@ export default function TeamPage() {
         favDest: 'Favorite destinations:  Belize, Costa Rica, Mexico and Thailand',
         picture: 'http://nebula.wsimg.com/c2324c57cfe64fe81b576e3c68b0c531?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
         urlId: 'Coral-Staton'
-    }, {
-        name: 'Andi Dowell',
-        role: 'Travel Consultant',
-        desc: "Andi fell in love with travel with her first trip abroad to Sweden.  Ever since then she's been hooked! Growing up in small town Kansas, she always dreamed about experiencing other cultures and destinations, and now finally feels like she has the time to do so. As a recent college graduate, Andi enjoys coordinating events of all different kinds and hopes to expand her coordinating to travel. She has been training all things cruises! If you're interested in a cruise, Andi is your girl!",
-        phone: 'Direct Line: 620-204-0134',
-        email: 'Andi@TravelSalesGroup.com',
-        picture: 'http://nebula.wsimg.com/bcdcc7370cb49e88f0d974a98012a876?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
-        urlId: 'Andi-Dowell'
     }]
     
     return (

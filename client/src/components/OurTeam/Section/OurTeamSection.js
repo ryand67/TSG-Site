@@ -29,12 +29,6 @@ const OurTeamSection = () => {
         phone: '770-272-5397​',
         email: 'Coral@TravelSalesGroup.com'
     },{
-        name: 'Andi Dowell',
-        picture: 'http://nebula.wsimg.com/bcdcc7370cb49e88f0d974a98012a876?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
-        desc: 'Cruises are her passion.',
-        phone: '620-204-0134',
-        email: '​Andi@TravelSalesGroup.com'
-    },{
         name: 'Frank DiPietro',
         picture: 'http://nebula.wsimg.com/3bc090a71f1995ea99f324bb19a638c1?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
         desc: 'Specialties include AMAWaterways River Cruises, Viking River Cruises, Golf and Fishing Trips, European Adventures.',
