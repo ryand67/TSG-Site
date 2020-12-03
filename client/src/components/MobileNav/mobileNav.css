@@ -8,7 +8,7 @@
     align-items: center;
     display: flex;
     transition: .4s ease-in-out;
-    z-index: 99;
+    z-index: 100;
     justify-content: space-between;
 }
 
@@ -47,4 +47,54 @@
 
 .mobileNavMenuButton {
     margin-right: 2em;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileNavBurger {
+    width: 45px;
+    height: 5px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.mobileNavBurger::before,
+.mobileNavBurger::after {
+    content: '';
+    position: absolute;
+    width: 45px;
+    height: 5px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.mobileNavBurger::before {
+    transform: translateY(-16px);
+}
+
+.mobileNavBurger::after {
+    transform: translateY(16px);
+}
+
+.mobileNavMenuButton.mobileNavBurgerOpen .mobileNavBurger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+
+.mobileNavMenuButton.mobileNavBurgerOpen .mobileNavBurger::before {
+    background: var(--main-dark-text);
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.mobileNavMenuButton.mobileNavBurgerOpen .mobileNavBurger::after {
+    background: var(--main-dark-text);
+    transform: rotate(-45deg) translate(35px, 35px);
 }

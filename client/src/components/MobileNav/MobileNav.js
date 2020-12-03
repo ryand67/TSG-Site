@@ -28,7 +28,9 @@ export default function MobileNav( props ) {
         <>
         <nav className={isTop && menuOpen === false ? "mobileNavTop" : "mobileNav"}>
             <img src={navLogo} alt="" className={menuOpen ? "mobileNavLogo2" : "mobileNavLogo"} onClick={() => window.location.replace('/')}/>
-            <button className="mobileNavMenuButton" onClick={(e) => handleMobileMenu(e)}>MENU (temp button)</button>
+            <div className={menuOpen ? "mobileNavMenuButton mobileNavBurgerOpen" : "mobileNavMenuButton"} onClick={(e) => handleMobileMenu(e)}>
+                <div className="mobileNavBurger"></div>
+            </div>
         </nav>
         </>
     )
