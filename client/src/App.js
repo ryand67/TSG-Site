@@ -67,6 +67,7 @@ function App() {
         <Route exact path="/honeymoon">
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Isn't It Romantic?" desc="Our Travel Sales Group Pros are experts at honeymoons, destination weddings and Anniversary getaways. We know first hand how much these trips mean to you! They can bring a couple together and make memories that will be cherished forever. We will chat with you, ask the right questions, and make sure that your getaway together is the best trip you could dream up!" hrVisible={true} pictures={realHeroPics} />
           <HoneymoonBody />
+          <Testimonial testimonials={[["Thank you for such an amazing honeymoon in Costa Rica at Secrets Papagayo. It was hands down our best trip together thus far. Everyone was so nice and friendly and the food was excellent...Jerica was very pleased with it. Thanks for helping us have a honeymoon that we will always remember and never want to forget and we will for sure be contacting you for our next big getaway and will also be recommending your services to others.", "Jerica and Justin – NYC"], ["My husband and I were introduced to Heather years ago when she was managing destination wedding plans for close friends. Since then, we have worked with Heather several times for personal Mexico trips. She is professional, responsive and always provides us with the best guidance. We will be working with Heather and Travel Sales Group for years to come! No detail is overlooked! Highly, highly recommend!", "Christine Hutcheson"]]} />
           <Footer />
         </Route>
 
@@ -85,6 +86,7 @@ function App() {
         <Route exact path="/kid-friendly">
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Traveling w/ Tots" desc="" pictures={realHeroPics} hrVisible={false} />
           <KidFriendly />
+          <Testimonial testimonials={[["I would like to take the opportunity to thank Jenn McDonald for another fantastic trip!  Tropical Storm Matthew hit during our stay and Jenn gave me her direct line and made sure that I could contact her at any time to help with any snags that came up.  She even upgraded me on this trip to private airport transfers (highly recommend - saved hours)!  Thanks so much Jenn for everything.  We will be in touch soon!", "​Lucia – NYC"], ["Everytime we have gone away, we have used Jenn to book our trips.  I have to say that she does not leave one stone unturned.  Her attention to detail is unbelievable! This trip was no different than all the others she has planned for us.  I would highly recommend her!", "Lorenda M - Oklahoma"]]} />
           <Footer />
         </Route>
 
