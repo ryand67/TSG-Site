@@ -80,6 +80,7 @@ function App() {
         <Route exact path="/adults-only">
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="For the Grown Ups - Adults Only Resorts" desc="" pictures={realHeroPics} hrVisible={false} />
           <AdultsOnly />
+          <Testimonial testimonials={[["We’ve had a great experience with Travel Sales Group & Heather! My husband and I were overwhelmed looking at all of the resort options available in popular destinations and knew we needed some trusted help. Heather has been easy to work with and has gone the extra mile to make sure our stays have been perfect! Her recommendations are top notch and continue to impress us. Highly recommend!", "Jennifer Garza"], ["Heather was with us every step of the way. We had never traveled before and she made the entire process comfortable.  She always answered our questions at the drop of a hat. W e will definitely be contacting her at travel Sales Group for our next adventure!", "Gregory and  Christina Pinarski. St. John , IN"]]} />
           <Footer />
         </Route>
 
