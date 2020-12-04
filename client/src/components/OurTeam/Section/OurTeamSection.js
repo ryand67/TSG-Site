@@ -2,6 +2,7 @@ import React from 'react';
 import './ourTeamSection.css';
 import TeamCard from '../TeamCard/TeamCard';
 import NewTeamCard from '../newTeamCard/newTeamCard';
+import FrankPic from '../../../Assets/frank headshot.jpg';
 
 const OurTeamSection = () => {
     const agents = [{
@@ -30,7 +31,7 @@ const OurTeamSection = () => {
         email: 'Coral@TravelSalesGroup.com'
     },{
         name: 'Frank DiPietro',
-        picture: 'http://nebula.wsimg.com/3bc090a71f1995ea99f324bb19a638c1?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: FrankPic,
         desc: 'Specialties include AMAWaterways River Cruises, Viking River Cruises, Golf and Fishing Trips, European Adventures.',
         phone: '518-369-5730',
         email: 'Frank@TravelSalesGuy.com'
