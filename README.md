@@ -4,10 +4,11 @@ A landing page for TravelSalesGroup travel agency.
 
 ## Deployed 
 
-https://tsg-heroku.herokuapp.com/
+http://tsg-live-preview.herokuapp.com/
 
 ## Tech Used: 
 
 * React
 * CSS
 * Node/Express
+* MaterialUI
