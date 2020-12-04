@@ -4,6 +4,7 @@
     /* background-image: url('../../placeholderPictures/resortPlaceholder.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: 50% 50%;
     text-align: center;
     transition: 2s;
@@ -81,5 +82,9 @@
     .main-text {
         max-width: 100%;
         font-size: 1em;
+    }
+
+    .hero {
+        background-attachment: scroll;
     }
 }
