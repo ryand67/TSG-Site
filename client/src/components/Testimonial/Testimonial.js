@@ -1,12 +1,18 @@
 import React from 'react';
 import './testimonial.css';
 
-export default function Testimonial( props ) {
+export default function Testimonial( {testimonials} ) {
     return (
         <div className="testimonialDiv">
             <h1 className="testimonialHeader">Testimonials:</h1>
-            <p className="testimonialText">{props.text}</p>
-            <p className="testimonialSignature">{props.signature}</p>
+            {testimonials.map(test => {
+                return (
+                    <>
+                        <p className="testimonialText">{test[0]}</p>
+                        <p className="testimonialSignature">{test[1]}</p>
+                    </>
+                )
+            })}
         </div>
     )
 }
