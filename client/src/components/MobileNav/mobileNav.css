@@ -49,8 +49,8 @@
     margin-right: 2em;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
