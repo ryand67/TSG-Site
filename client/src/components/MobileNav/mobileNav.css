@@ -49,15 +49,15 @@
     margin-right: 2em;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .mobileNavBurger {
-    width: 45px;
+    width: 40px;
     height: 5px;
     background: #fff;
     border-radius: 5px;
@@ -68,7 +68,7 @@
 .mobileNavBurger::after {
     content: '';
     position: absolute;
-    width: 45px;
+    width: 40px;
     height: 5px;
     background: #fff;
     border-radius: 5px;
