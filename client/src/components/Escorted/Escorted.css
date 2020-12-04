@@ -1,0 +1,34 @@
+.escortedDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-dark-text);
+    flex-direction: column;
+}
+
+.escortedHeader {
+    font-size: 2.5em;
+    width: 60%;
+    text-align: center;
+}
+
+.escortedPlug {
+    margin: 1em 0;
+    font-size: 2em;
+}
+
+.escortedInfo {
+    width: 65%;
+    text-align: left;
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+
+.escortedInfo a {
+    color: var(--main-dark-text);
+    text-decoration: none;
+}
+
+.escortedInfo:last-of-type {
+    text-align: center;
+}

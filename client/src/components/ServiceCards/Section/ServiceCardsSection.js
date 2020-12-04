@@ -27,7 +27,8 @@ const ServiceCardSection = () => {
     }, {
         picture: servicePictures[4],
         title: 'Our Escorted Groups',
-        desc: 'Travel w/ TSG Agents'
+        desc: 'Travel w/ TSG Agents',
+        urlLocation: '/escorted-trips'
     }, {
         picture: servicePictures[5],
         title: 'Rolling On The River',
