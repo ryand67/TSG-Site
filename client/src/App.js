@@ -20,6 +20,7 @@ import MobileNavModal from './components/MobileNav/MobileNavModal';
 import Testimonial from './components/Testimonial/Testimonial';
 import Escorted from './components/Escorted/Escorted';
 import Registries from './components/Registries/Registries';
+import PickThePlace from './components/PickThePlace/PickThePlace';
 
 function App() {
   
@@ -126,7 +127,7 @@ function App() {
 
         <Route exact path="/pick-the-place">
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="You Pick The Place" pictures={realHeroPics} hrVisible={false} />
-          
+          <PickThePlace />
           <Footer />
         </Route>
       </div>
