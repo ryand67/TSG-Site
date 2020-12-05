@@ -123,6 +123,12 @@ function App() {
           <Registries />
           <Footer />
         </Route>
+
+        <Route exact path="/pick-the-place">
+          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="You Pick The Place" pictures={realHeroPics} hrVisible={false} />
+          
+          <Footer />
+        </Route>
       </div>
     </Router>
   );

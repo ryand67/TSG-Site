@@ -22,10 +22,16 @@
 .fbAlbumsAdultsOnly {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     margin-bottom: 1em;
 }
 
 .fbAlbumsAdultsOnly iframe {
     margin: 1em 0;
+}
+
+.fbHeader {
+    text-align: center;
 }

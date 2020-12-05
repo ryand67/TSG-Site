@@ -23,7 +23,8 @@ const ServiceCardSection = () => {
     }, {
         picture: servicePictures[3],
         title: 'You Pick The Place',
-        desc: 'Amazing Destinations'
+        desc: 'Amazing Destinations',
+        urlLocation: '/pick-the-place'
     }, {
         picture: servicePictures[4],
         title: 'Our Escorted Groups',
