@@ -26,9 +26,12 @@ function Registries() {
 
     return (
         <div className="registriesPage">
-            {registriesInfo.map(item => {
-                return <Card name={item.name} desc={item.desc} picture={item.picture} pageLink={item.pageLink} className="registriesCard" />
-            })}
+            <h1 className="registriesTitle">Registries</h1>
+            <div className="regCardDiv">
+                {registriesInfo.map(item => {
+                    return <Card name={item.name} desc={item.desc} picture={item.picture} pageLink={item.pageLink} className="registriesCard" />
+                })}
+            </div>
         </div>
     )
 }
