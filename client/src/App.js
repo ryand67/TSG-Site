@@ -19,6 +19,7 @@ import MobileNav from './components/MobileNav/MobileNav';
 import MobileNavModal from './components/MobileNav/MobileNavModal';
 import Testimonial from './components/Testimonial/Testimonial';
 import Escorted from './components/Escorted/Escorted';
+import Registries from './components/Registries/Registries';
 
 function App() {
   
@@ -114,6 +115,13 @@ function App() {
         <Route exact path="/escorted-trips">
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Our Escorted Groups" pictures={realHeroPics} hrVisible={false} />
           <Escorted />
+          <Footer />
+        </Route>
+
+        <Route exact path="/honeymoon-registries">
+          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Our #TSGBrides" desc="Honeymoon Registries" pictures={realHeroPics} hrVisible={true} />
+          <Registries />
+          <Footer />
         </Route>
       </div>
     </Router>

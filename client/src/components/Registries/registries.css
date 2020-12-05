@@ -1,0 +1,12 @@
+.registriesPage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.newRegCard {
+    width: 410px;
+    margin: .5em;
+    margin-top: 3em;
+}
