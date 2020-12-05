@@ -126,7 +126,7 @@ function App() {
         </Route>
 
         <Route exact path="/pick-the-place">
-          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="You Pick The Place" pictures={realHeroPics} hrVisible={false} />
+          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} desc="Pick the destination of your next adventure!" title="You Pick The Place" pictures={realHeroPics} hrVisible={true} />
           <PickThePlace />
           <Footer />
         </Route>
