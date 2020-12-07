@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     text-align: center;
     color: var(--main-dark-text);
@@ -35,6 +35,9 @@
 }
 
 @media only screen and (max-width: 1250px) {
+    .serviceCardSection {
+        width: 80%;
+    }
     .serivceCardContainer {
         flex-direction: column;
         align-items: center;
