@@ -34,6 +34,14 @@
     margin: 0 auto;
 }
 
+.riverAlbumDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 792px;
+    align-items: center;
+}
+
 @media only screen and (max-width: 1800px) {
     .riverLogo {
         width: 40%;

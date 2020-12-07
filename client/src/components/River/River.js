@@ -6,6 +6,10 @@ import logo3 from '../../Assets/RiverLogos/vikingCruises.jpg';
 import logo4 from '../../Assets/RiverLogos/AmaWaterways.jpg';
 
 export default function River() {
+    const iframeStyle = {
+        border: 'none',
+        overflow: 'hidden'
+    }
     return (
         <div className="RiverPage">
             <ol className="riverList">
@@ -23,6 +27,9 @@ export default function River() {
                 <img src={logo2} alt="" className="riverLogo" />
                 <img src={logo3} alt="" className="riverLogo" />
                 <img src={logo4} alt="" className="riverLogo" />
+            </div>
+            <div className="riverAlbumDiv">
+                <iframe src='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftravelsalesgroup%2Fphotos%2Fa.138170423003909%2F1761924473961821%2F&show_text=true&width=552&height=647&appId' className="riverAlbum" width={window.innerWidth > 575 ? "552" : "325"} height="792" style={iframeStyle} scrolling="no" frameBorder="0"  allow="encrypted-media"></iframe>
             </div>
         </div>
     )
