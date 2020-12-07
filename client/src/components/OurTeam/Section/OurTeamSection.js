@@ -3,12 +3,13 @@ import './ourTeamSection.css';
 import TeamCard from '../TeamCard/TeamCard';
 import NewTeamCard from '../newTeamCard/newTeamCard';
 import FrankPic from '../../../Assets/ProfilePhotos/Frank.jpg';
-import coralPic from '../../../Assets/ProfilePhotos/Coral.jpeg'
+import coralPic from '../../../Assets/ProfilePhotos/Coral.jpeg';
+import heatherPic from '../../../Assets/ProfilePhotos/Heather.jpg';
 
 const OurTeamSection = () => {
     const agents = [{
         name: 'Heather DiPietro',
-        picture: 'http://nebula.wsimg.com/e61c221b59247ac95a06f8473ead1f49?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: heatherPic,
         desc: 'Heather is an expert with your Luxury Experiences, Honeymoons, Anniversaries, Destination Weddings, Incentive and Conference Groups, Europe, River Cruises, Caribbean, Mexico, Tahiti, Bora Bora, New Zealand, Hawaii.',
         phone: '518-885-8035',
         email: 'Heather@TravelSalesGirl.com'
