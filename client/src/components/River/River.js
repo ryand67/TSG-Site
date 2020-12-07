@@ -6,10 +6,12 @@ import logo3 from '../../Assets/RiverLogos/vikingCruises.jpg';
 import logo4 from '../../Assets/RiverLogos/AmaWaterways.jpg';
 
 export default function River() {
+    
     const iframeStyle = {
         border: 'none',
         overflow: 'hidden'
     }
+
     return (
         <div className="RiverPage">
             <ol className="riverList">
