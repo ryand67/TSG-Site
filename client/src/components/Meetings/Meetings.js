@@ -11,12 +11,13 @@ import pic8 from '../../Assets/MeetingPics/8.jpg';
 import pic9 from '../../Assets/MeetingPics/9.jpg';
 import pic10 from '../../Assets/MeetingPics/10.jpg';
 import pic11 from '../../Assets/MeetingPics/11.jpg';
+import firstPic from '../../Assets/MeetingPics/firstMeetingPic.jpg';
 
 export default () => {
 
     // ['http://23.21.66.147/mediasite/wp-content/uploads/2014/09/SEARM_Ballroom_School_1A.jpg', 'http://23.21.66.147/mediasite/wp-content/uploads/2014/09/SEARM_Fuego_Breakout_Room_2-458x305.jpg'], ['http://23.21.66.147/mediasite/wp-content/uploads/2014/09/SEARM_GalaDinner_Ceiba_1-458x305.jpg', 'http://23.21.66.147/mediasite/wp-content/uploads/2014/09/SEARM_MICE_GalaDinner_pool_2A.jpg'], ['http://23.21.66.147/mediasite/wp-content/uploads/2020/02/NOSRC-GRP-BALLROOM-3A-458x305.jpg', 'http://23.21.66.147/mediasite/wp-content/uploads/2018/01/DREVC-WED-GalaDinner-Pier-2A-RGB-458x305.jpg'], ['http://23.21.66.147/mediasite/wp-content/uploads/2018/01/DREVC-GRP-Ballroom-1A-RGB-458x305.jpg', 'http://23.21.66.147/mediasite/wp-content/uploads/2018/01/DREVC-GRP-Breakout-1B-RGB-458x305.jpg'],
 
-    const meetingsPics = [ ['http://23.21.66.147/mediasite/wp-content/uploads/2018/01/DREVC-GRP-PoolTerrace-2A-RGB-1024x682.jpg', pic1], [pic2, pic3], [pic4, pic7], [pic8, pic9], [pic10, pic11], [pic5, pic6]]
+    const meetingsPics = [ [firstPic, pic1], [pic2, pic3], [pic4, pic7], [pic8, pic9], [pic10, pic11], [pic5, pic6]]
 
     return (
         <div className="meetingsDiv">
