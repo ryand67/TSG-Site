@@ -2,7 +2,8 @@ import React from 'react';
 import './ourTeamSection.css';
 import TeamCard from '../TeamCard/TeamCard';
 import NewTeamCard from '../newTeamCard/newTeamCard';
-import FrankPic from '../../../Assets/frank headshot.jpg';
+import FrankPic from '../../../Assets/ProfilePhotos/Frank.jpg';
+import coralPic from '../../../Assets/ProfilePhotos/Coral.jpeg'
 
 const OurTeamSection = () => {
     const agents = [{
@@ -25,7 +26,7 @@ const OurTeamSection = () => {
         email: '​Tanya@TravelSalesGroup.com'
     },{
         name: 'Coral Staton',
-        picture: 'http://nebula.wsimg.com/c2324c57cfe64fe81b576e3c68b0c531?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: coralPic,
         desc: 'Namaste – Yoga Retreats, Adventure Travel, Thailand, South America, Family Travel, Some Cruises.',
         phone: '770-272-5397​',
         email: 'Coral@TravelSalesGroup.com'
