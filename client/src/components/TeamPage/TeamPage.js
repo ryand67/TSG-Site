@@ -1,6 +1,10 @@
 import React from 'react';
 import './teamPage.css';
 import Profile from './PageParts/TeamPagePart';
+import FrankPic from '../../Assets/ProfilePhotos/Frank.jpg';
+import coralPic from '../../Assets/ProfilePhotos/Coral.jpeg';
+import heatherPic from '../../Assets/ProfilePhotos/Heather.jpg';
+import tanyaPic from '../../Assets/ProfilePhotos/Tanya.jpg';
 
 export default function TeamPage() {
 
@@ -11,7 +15,7 @@ export default function TeamPage() {
         favDest: 'Her favorite destinations: Way too many to name them all but Bora Bora, Anguilla, Hawaii, Switzerland Antigua, St Lucia, and Mexico top the list.',
         phone: 'Direct Line: 518-885-8035',
         email: 'Heather@TravelSalesGirl.com',
-        picture: 'http://nebula.wsimg.com/e61c221b59247ac95a06f8473ead1f49?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: heatherPic,
         urlId: 'Heather-DiPietro'
     }, {
         name: 'Jenn McDonald',
@@ -29,7 +33,7 @@ export default function TeamPage() {
         phone: 'Direct Line: 267-483-5767',
         email: 'Tanya@TravelSalesGroup.com',
         favDest: 'Favorite Destinations:  Walt Disney World and Aula',
-        picture: 'http://nebula.wsimg.com/2b524f8b906a39d32a0d87a98dd4af09?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: tanyaPic,
         urlId: 'Tanya-Nghiem'
     }, {
         name: 'Frank DiPietro',
@@ -38,7 +42,7 @@ export default function TeamPage() {
         phone: 'Direct Line: 518-369-5730',
         email: 'Frank@TravelSalesGuy.com',
         favDest: 'Favorite Destinations:  St Martin, Switzerland, the USVI and Mexico',
-        picture: 'http://nebula.wsimg.com/3bc090a71f1995ea99f324bb19a638c1?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: FrankPic,
         urlId: 'Frank-DiPietro'
     }, {
         name: 'Coral Staton',
@@ -47,7 +51,7 @@ export default function TeamPage() {
         phone: '​Direct Line: 770-272-5397​',
         email: 'Coral@TravelSalesGroup.com',
         favDest: 'Favorite destinations:  Belize, Costa Rica, Mexico and Thailand',
-        picture: 'http://nebula.wsimg.com/c2324c57cfe64fe81b576e3c68b0c531?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: coralPic,
         urlId: 'Coral-Staton'
     }]
     

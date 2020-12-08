@@ -2,6 +2,7 @@ import React from 'react';
 import './teamPageProfile.css';
 
 export default function TeamPagePart( { agent } ) {
+
     return (
         <>
             <div className="teamPageProfile" id={`#${agent.urlId}`}>
