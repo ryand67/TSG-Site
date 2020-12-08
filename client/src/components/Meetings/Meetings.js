@@ -11,7 +11,7 @@ import pic8 from '../../Assets/MeetingPics/8.jpg';
 import pic9 from '../../Assets/MeetingPics/9.jpg';
 import pic10 from '../../Assets/MeetingPics/10.jpg';
 import pic11 from '../../Assets/MeetingPics/11.jpg';
-import firstPic from '../../Assets/MeetingPics/firstMeetingPic.jpg';
+import firstPic from '../../Assets/MeetingPics/image001.jpg';
 
 export default () => {
 
