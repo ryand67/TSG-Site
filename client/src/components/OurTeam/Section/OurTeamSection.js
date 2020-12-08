@@ -5,6 +5,7 @@ import NewTeamCard from '../newTeamCard/newTeamCard';
 import FrankPic from '../../../Assets/ProfilePhotos/Frank.jpg';
 import coralPic from '../../../Assets/ProfilePhotos/Coral.jpeg';
 import heatherPic from '../../../Assets/ProfilePhotos/Heather.jpg';
+import tanyaPic from '../../../Assets/ProfilePhotos/Tanya.jpg';
 
 const OurTeamSection = () => {
     const agents = [{
@@ -21,7 +22,7 @@ const OurTeamSection = () => {
         email: 'Jenn@TravelSalesGal.com'
     }, {
         name: '​Tanya Nghiem',
-        picture: 'http://nebula.wsimg.com/2b524f8b906a39d32a0d87a98dd4af09?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: tanyaPic,
         desc: 'Our resident Disney Princess (including Disney cruises, Adventures by Disney, and all parks), Universal Vacations, Family Travel, Hawaii, Mexico.',
         phone: '267-483-5767',
         email: '​Tanya@TravelSalesGroup.com'
