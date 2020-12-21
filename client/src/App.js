@@ -120,6 +120,12 @@ function App() {
           <Footer />
         </Route>
 
+        <Route exact path="/our-agents.html">
+          <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Meet Our Team" desc="Meet our team of agents ready to send you on the vacation of your dreams." pictures={realHeroPics} hrVisible={true} />
+          <TeamPage />
+          <Footer />
+        </Route>
+
         <Route exact path="/escorted-trips">
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Our Escorted Groups" pictures={realHeroPics} hrVisible={false} />
           <Escorted />
