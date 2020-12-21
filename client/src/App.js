@@ -67,6 +67,13 @@ function App() {
           <Footer />
         </Route>
 
+        <Route exact path="/home.html">
+          <Hero title="TravelSalesGroup" desc="“And the purpose of life, after all, is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.” — Eleanor Roosevelt" hrVisible={true} pictures={realHeroPics} />
+          <ServiceCardSection />
+          <OurTeamSection />
+          <Footer />
+        </Route>
+
         <Route exact path="/honeymoon">
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Isn't It Romantic?" desc="Our Travel Sales Group Pros are experts at honeymoons, destination weddings and Anniversary getaways. We know first hand how much these trips mean to you! They can bring a couple together and make memories that will be cherished forever. We will chat with you, ask the right questions, and make sure that your getaway together is the best trip you could dream up!" hrVisible={true} pictures={realHeroPics} />
           <HoneymoonBody />
