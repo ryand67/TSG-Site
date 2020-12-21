@@ -5,6 +5,7 @@ import FrankPic from '../../Assets/ProfilePhotos/Frank.jpg';
 import coralPic from '../../Assets/ProfilePhotos/Coral.jpeg';
 import heatherPic from '../../Assets/ProfilePhotos/Heather.jpg';
 import tanyaPic from '../../Assets/ProfilePhotos/Tanya.jpg';
+import jennPic from '../../Assets/ProfilePhotos/Jenn.jpg';
 
 export default function TeamPage() {
 
@@ -24,7 +25,7 @@ export default function TeamPage() {
         phone: 'Direct Line: 215-491-4308',
         email: 'Jenn@TravelSalesGal.com',
         favDest: 'Her favorite destinations:  Mexico and Punta Cana',
-        picture: 'http://nebula.wsimg.com/fe29e37c665b9f697ec41d92c4a72afc?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: jennPic,
         urlId: 'Jenn-McDonald'
     }, {
         name: 'Tanya Nghiem',

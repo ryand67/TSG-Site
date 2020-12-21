@@ -6,6 +6,7 @@ import FrankPic from '../../../Assets/ProfilePhotos/Frank.jpg';
 import coralPic from '../../../Assets/ProfilePhotos/Coral.jpeg';
 import heatherPic from '../../../Assets/ProfilePhotos/Heather.jpg';
 import tanyaPic from '../../../Assets/ProfilePhotos/Tanya.jpg';
+import jennPic from '../../../Assets/ProfilePhotos/Jenn.jpg'
 
 const OurTeamSection = () => {
     const agents = [{
@@ -16,7 +17,7 @@ const OurTeamSection = () => {
         email: 'Heather@TravelSalesGirl.com'
     },{
         name: 'Jenn McDonald',
-        picture: 'http://nebula.wsimg.com/fe29e37c665b9f697ec41d92c4a72afc?AccessKeyId=B3B2E63AE054F167177D&disposition=0&alloworigin=1',
+        picture: jennPic,
         desc: 'Jenn expertly plans Family Travel in Mexico and the Caribbean, Beach Honeymoons, Hawaii.',
         phone: '215-491-4308',
         email: 'Jenn@TravelSalesGal.com'
