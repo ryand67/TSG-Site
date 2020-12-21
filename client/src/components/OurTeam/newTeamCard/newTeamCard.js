@@ -23,7 +23,9 @@ export default function MediaCard( props ) {
   const urlName = props.name.split(' ').join('-')
 
   return (
-    <Card className="newTeamCard">
+    <Card className="newTeamCard" onClick={() => {
+      window.location.replace('/team')
+    }}>
       <CardActionArea>
         <CardMedia
           className={`${classes.media}`}
@@ -31,7 +33,7 @@ export default function MediaCard( props ) {
           title={props.name}
         />
         <CardContent onClick={() => {
-            window.location.replace(`/team/#${urlName}`)
+            window.location.replace(`/team`)
         }} className="newTeamCardMain">
           <Typography gutterBottom variant="h5" component="h2">
             {props.name}
