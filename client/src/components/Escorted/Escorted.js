@@ -15,7 +15,7 @@ export default function Escorted() {
             <p className="escortedInfo">You will only unpack once - aboard the brand new AMALucia with several options for staterooms, all with a view of the gorgeous scenes along the nearby shores of the Rhine River.  You will sample some of the best wine, chocolate, cheese and beer in the world…all included in your stay!  The food onboard is nothing short of 5 star with expert local wine pairings included with every course of your gourmet meal.  The inclusions onboard are endless.</p>
             <p className="escortedInfo">Tour medieval castles, sample fresh gingerbread like you have never experienced in your life, and bike through the small towns that inspired Beauty and the Beast and stroll through markets with fresh fruits, vegies, cheese, baked goods, meats and flowers in town squares.  Our favorite part of the trip is the castles along the Rhine, where you will sit back in your chaise on the upper deck and watch as you float by 30 different castles built into the hills along the river.  Just Stunning!</p>
             <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1594646744022929&width=500&show_text=true&height=822&appId" width={window.innerWidth > 575 ? "552" : "325"} height="792" style={iframeStyle} scrolling="no" frameBorder="0"  allow="encrypted-media"></iframe>
-            <p className="escortedInfo"><a href="https://www.youtube.com/watch?v=6pECXxfzrUo&t=4s">Click here for a video with details!</a></p>
+            <p className="escortedInfo"><a href="https://www.youtube.com/watch?v=6pECXxfzrUo&t=4s" target="_blank">Click here for a video with details!</a></p>
         </div>
     )
 }
