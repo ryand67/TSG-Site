@@ -10,6 +10,12 @@
     transition: 2s;
 }
 
+.testingHero {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
 .heroShader {
     width: 100%;
     height: 100%;
