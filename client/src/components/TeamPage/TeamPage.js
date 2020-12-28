@@ -33,7 +33,7 @@ export default function TeamPage() {
         desc: 'Tanya is our expert on all things family, especially DISNEY! and Universal!  Her, her husband and their children travel to Disney Parks and Destinations at least 3 - 4 times a year.  There is noone out there that knows Disney better than Tanya.  She actually started as a friend and when we realized that she had this much Disney knowledge to share, we put her on the payroll.  She can book your dining reservations, arrange for your magic express transfers, make room requests, arrange calls from the Mouse himself and a myriad of other extras that Disney offers.  Reach out to Tanya today to get started on your family adventure!!  Walt Disney Travel Company College of Knowledge graduate, Universal Studios Specialist, Hawaiian Islands Master Specialist',
         phone: 'Direct Line: 267-483-5767',
         email: 'Tanya@TravelSalesGroup.com',
-        favDest: 'Favorite Destinations:  Walt Disney World and Aula',
+        favDest: 'Favorite Destinations:  Walt Disney World and Aulani in O’ahu',
         picture: tanyaPic,
         urlId: 'Tanya-Nghiem'
     }, {
