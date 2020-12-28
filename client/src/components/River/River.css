@@ -32,7 +32,7 @@
     align-items: center;
     flex-direction: row;
     margin: 0 auto;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 .riverAlbumDiv {
@@ -41,6 +41,12 @@
     justify-content: center;
     height: 650px;
     align-items: center;
+}
+
+.riverAlbum {
+    height: 100%;
+    width: 100%;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.295);
 }
 
 @media only screen and (max-width: 1800px) {
