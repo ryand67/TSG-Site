@@ -15,7 +15,7 @@ export default function() {
 
     const puertoVallartaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1381820481972224&show_text=true&width=552&height=792&appId', 'Dreams Villa Magna'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.551089615045319&show_text=true&width=552&height=792&appId', 'Hard Rock Vallarta Bay']]
 
-    const antiguaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1204069823080625&show_text=true&width=552&height=792&appId', 'Blue Waters Antigua'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%3Fvanity%3Dtravelsalesgroup%26set%3Da.1895429137278020&width=500&show_text=true&height=803&appId', 'Curtain Bluff']]
+    const antiguaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1204069823080625&show_text=true&width=552&height=792&appId', 'Blue Waters Antigua'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%3Fvanity%3Dtravelsalesgroup%26set%3Da.1895429137278020&width=500&show_text=true&height=803&appId', 'Curtain Bluff'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1906316962855904&width=500&show_text=true&height=746&appId', "Hodge's Bay Resort"], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1889564954531105&width=500&show_text=true&height=759&appId', "Inn at English Harbour"]]
 
     const stLuciaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1228191174001823&show_text=true&width=552&height=836&appId', 'Sugar Beach'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1222010287953245&show_text=true&width=552&height=792&appId', 'Royalton St Lucia'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1220465011441106&show_text=true&width=552&height=792&appId', 'The Landings'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1232444050243202&show_text=true&width=552&height=817&appId', 'Harbor Club'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1228893113931629&show_text=true&width=552&height=830&appId', 'Cap Maison']]
 
@@ -38,6 +38,8 @@ export default function() {
     const virginIslandsLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1333268953494044&show_text=true&width=552&height=817&appId', 'The Buccaneer (St Croix)']]
 
     const hawaiiLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1185265481627726&show_text=true&width=552&height=861&appId', 'Turtle Bay(Oahu)'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1043038545850421&show_text=true&width=552&height=668&appId', 'The Royal Hawaiian (Oahu)'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1036723446481931&show_text=true&width=552&height=792&appId', 'Outrigger Reef Waikiki (Oahu)'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1036540509833558&show_text=true&width=552&height=792&appId', 'Kahala Luxury Resort (Oahu)'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.401881566632792&show_text=true&width=552&height=773&appId', 'Grand Hyatt (Kauai)'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.399907700163512&show_text=true&width=552&height=773&appId', 'Grand Wailea (Maui)'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.422552474565701&show_text=true&width=552&height=811&appId', 'Sheraton Kauai'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.403157403171875&show_text=true&width=552&height=811&appId', 'Fairmont Kea Lani (Maui)'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1813928602094741&show_text=true&width=552&height=811&appId', 'Aulani - A Disney Resort and Spa']]
+
+    const usLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1904715556349378&width=500&show_text=true&height=803&appId', "Disney's Wilderness Lodge"]]
 
     const iframeStyle = {
         border: 'none',
@@ -87,6 +89,8 @@ export default function() {
             return virginIslandsLinks;
         } else if(currentCountry === 'Hawaii') {
             return hawaiiLinks;
+        } else if(currentCountry === 'US') {
+            return usLinks;
         }
     }
 
@@ -112,6 +116,7 @@ export default function() {
                 <option value="Anguilla">Anguilla</option>
                 <option value="Bora Bora">Bora Bora</option>
                 <option value="US Virgin Islands">US Virgin Islands</option>
+                <option value="US">Continental US</option>
                 <option value="Hawaii">Hawaii</option>
             </select>
             <h1 className="adultsOnlyCountryTitle">{currentCountry}</h1>
