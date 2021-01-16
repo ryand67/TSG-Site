@@ -9,7 +9,7 @@
 
 .mobileNavList {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     text-align: center;
     font-size: 2em;
     display: flex;
