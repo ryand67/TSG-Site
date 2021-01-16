@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css'
 import Hero from './components/Hero/Hero';
 import Nav from './components/Nav/Nav';
@@ -74,7 +74,7 @@ function App() {
           <Footer /> */}
         {/* </Route> */}
 
-        <Redirect from='/home.html' to='/' />
+        {/* <Redirect from='/home.html' to='/' /> */}
 
         <Route exact path="/honeymoon">
           <Hero heroHandleContactClose={contactCloseCallback} heroHandleContact={contactCallback} title="Isn't It Romantic?" desc="Our Travel Sales Group Pros are experts at honeymoons, destination weddings and Anniversary getaways. We know first hand how much these trips mean to you! They can bring a couple together and make memories that will be cherished forever. We will chat with you, ask the right questions, and make sure that your getaway together is the best trip you could dream up!" hrVisible={true} pictures={realHeroPics} />
