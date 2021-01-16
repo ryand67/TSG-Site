@@ -37,7 +37,7 @@ const Hero = (props) => {
 
     return (
         <div className="hero" style={{backgroundImage: `url(${currentImage})` }}>
-            {/* {contactUp ? <Contact exitFunc={exitButton}/> : ''} */}
+            {/* {contactUp ? <Contact exitFunc={exitButton}/> : ''} */} 
             <div className="heroShader">
                 <div className="title-container">
                     <h1 className={window.location.pathname === '/' ? "main-title amazoneText" : "main-title"}>{props.title}</h1>
