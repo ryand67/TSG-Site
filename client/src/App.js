@@ -26,7 +26,11 @@ function App() {
   
   const placeholderHeroPics = ['https://images.unsplash.com/photo-1582719508461-905c673771fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2725&q=80', 'https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80', 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2787&q=80']
 
-  const [isMobileForNav, setNavMobile] = useState(window.innerWidth < 850);
+  const [isMobileForNav, setNavMobile] = useState(window.innerWidth < 850); 
+
+  if(window.location.pathname === '/home.html') {
+    window.location.replace('/');
+  }
 
   useEffect(() => {
     window.addEventListener('resize', () => {
