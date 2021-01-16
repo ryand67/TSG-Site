@@ -28,6 +28,7 @@ function App() {
 
   const [isMobileForNav, setNavMobile] = useState(window.innerWidth < 850); 
 
+  //This was to fix google indexing and whatever that was being a pain. If it goes to the old link with the broken heros and buttons then it just auto redirects
   if(window.location.pathname === '/home.html') {
     window.location.replace('/');
   }
