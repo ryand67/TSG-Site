@@ -51,7 +51,7 @@ export default function() {
             return (
             <>
                 <h1 className="fbHeader">{item[1]}</h1>
-                <iframe loading="lazy" key={i} src={item[0]} width={window.innerWidth > 575 ? "552" : "325"} height="792" style={iframeStyle} scrolling="no" frameBorder="0"  allow="encrypted-media"></iframe>
+                <iframe alt={item[1]} loading="lazy" key={i} src={item[0]} width={window.innerWidth > 575 ? "552" : "325"} height="792" style={iframeStyle} scrolling="no" frameBorder="0"  allow="encrypted-media"></iframe>
             </>
             )
         })
