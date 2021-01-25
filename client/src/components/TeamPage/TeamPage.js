@@ -4,7 +4,7 @@ import Profile from './PageParts/TeamPagePart';
 import FrankPic from '../../Assets/ProfilePhotos/Frank.jpg';
 import coralPic from '../../Assets/ProfilePhotos/Coral.jpeg';
 import heatherPic from '../../Assets/ProfilePhotos/Heather.jpg';
-import tanyaPic from '../../Assets/ProfilePhotos/Tanya.jpg';
+import tanyaPic from '../../Assets/ProfilePhotos/TanyaNew.png';
 import jennPic from '../../Assets/ProfilePhotos/Jenn.jpg';
 
 export default function TeamPage() {
