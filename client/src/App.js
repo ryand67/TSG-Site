@@ -33,6 +33,10 @@ function App() {
     window.location.replace('/');
   }
 
+  if(window.location.pathname !== '/' && window.location.pathname !== '/honeymoon' && window.location.pathname !=='/how-we-work' && window.location.pathname !== '/adults-only' && window.location.pathname !== '/kid-friendly' && window.location.pathname !== '/meetings' && window.location.pathname !== '/rolling-on-the-river' && window.location.pathname !== '/team' && window.location.pathname !== '/our-agents.html' && window.location.pathname !== '/escorted-trips' && window.location.pathname !== '/honeymoon-registries' && window.location.pathname !== '/pick-the-place') {
+    window.location.replace('/');
+  }
+
   useEffect(() => {
     window.addEventListener('resize', () => {
       setNavMobile(window.innerWidth < 850);
@@ -72,12 +76,12 @@ function App() {
           <Footer />
         </Route>
 
-        <Route exact path="/home.html">
+        {/* <Route exact path="/home.html">
           <Hero title="TravelSalesGroup" desc="“And the purpose of life, after all, is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.” — Eleanor Roosevelt" hrVisible={true} pictures={realHeroPics} />
           <ServiceCardSection />
           <OurTeamSection />
           <Footer />
-        </Route>
+        </Route> */}
 
         {/* <Redirect from='/home.html' to='/' /> */}
 
