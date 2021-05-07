@@ -25,8 +25,12 @@
 }
 
 .escortedInfo a {
-    color: var(--main-dark-text);
+    color: var(--main-light-blue);
     text-decoration: none;
+}
+
+.escortedInfo a:hover {
+    text-decoration: underline;
 }
 
 .escortedInfo:last-of-type {
