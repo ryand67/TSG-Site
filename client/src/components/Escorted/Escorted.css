@@ -17,6 +17,11 @@
     font-size: 2em;
 }
 
+.escortedPlugExtra {
+    font-size: 2em;
+    color: rgb(224, 51, 51);
+}
+
 .escortedInfo {
     width: 65%;
     text-align: left;
