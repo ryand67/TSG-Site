@@ -20,7 +20,7 @@ const AdultsOnly = () => {
 
     const stLuciaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1227140680773539&show_text=true&width=552&height=817&appId', 'Calabash Cove St. Lucia'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1225337440953863&show_text=true&width=552&height=918&appId', 'Anse Chastenet and Jade Mountain'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.586953634792250&show_text=true&width=552&height=792&appId', 'Rendezvous'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.584551731699107&show_text=true&width=552&height=798&appId', 'Sandals Grand St. Lucian']]
 
-    const puntaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1031429930344616&show_text=true&width=552&height=668&appId', 'Sanctuary Cap Cana'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.355224327965183&show_text=true&width=552&height=830&appId', 'Breathless Punta Cana'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.948866478600962&show_text=true&width=552&height=817&appId', 'Secrets Cap Cana'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.352420944912188&show_text=true&width=552&height=754&appId', 'Iberostar Grand Bavaro']]
+    const puntaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.356548521166097&width=500&show_text=true&height=778&appId', 'Secrets Royal Beach']['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1031429930344616&show_text=true&width=552&height=668&appId', 'Sanctuary Cap Cana'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.355224327965183&show_text=true&width=552&height=830&appId', 'Breathless Punta Cana'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.948866478600962&show_text=true&width=552&height=817&appId', 'Secrets Cap Cana'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.352420944912188&show_text=true&width=552&height=754&appId', 'Iberostar Grand Bavaro']]
 
     const jamaicaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.847292842091660&show_text=true&width=552&height=817&appId', 'Breathless Montego Bay'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.842279519259659&show_text=true&width=552&height=792&appId', 'Secrets St. James'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.145846228902995&show_text=true&width=552&height=773&appId', 'Iberostar Grand Rose Hall']]
 
@@ -33,6 +33,8 @@ const AdultsOnly = () => {
     const arubaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.721663851321227&show_text=true&width=552&height=792&appId', 'Renaissance Aruba Marina Resort and Casino'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.714399948714284&show_text=true&width=552&height=792&appId', 'Bucuti and Tara Beach Resort']]
 
     const costaRicaLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.570839836403630&show_text=true&width=552&height=817&appId', 'Secrets Papagayo']]
+
+    const tahitiLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.2000170753470524&width=500&show_text=true&height=616&appId', 'Hilton Moorea']]
 
     const iframeStyle = {
         border: 'none',
@@ -76,6 +78,8 @@ const AdultsOnly = () => {
             return costaRicaLinks;
         } else if(currentCountry === 'Cabo San Lucas') {
             return caboLinks;
+        } else if(currentCountry === 'Tahiti') {
+            return tahitiLinks;
         }
     }
 
@@ -90,6 +94,7 @@ const AdultsOnly = () => {
                 <option value="Riviera Maya/Cancun">Riviera Maya/Cancun</option>
                 <option value="Cozumel">Cozumel</option>
                 <option value="Cabo San Lucas">Cabo San Lucas</option>
+                <option value="Tahiti">Tahiti</option>
                 <option value="Antigua">Antigua</option>
                 <option value="St. Lucia">St. Lucia</option>
                 <option value="Punta Cana">Punta Cana</option>

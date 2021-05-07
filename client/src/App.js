@@ -70,7 +70,7 @@ function App() {
         {stateNavContact ? <Contact handleNavContactClose={contactCloseCallback} /> : ''}
         {openMobileMenu && isMobileForNav ? <MobileNavModal handleNavContact={contactCallback} closeMenu={closeMobileMenuCB} /> : ''}
         <Route exact path="/">
-          <Hero title="TravelSalesGroup" desc="“And the purpose of life, after all, is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.” — Eleanor Roosevelt" hrVisible={true} pictures={realHeroPics} />
+          <Hero title="TravelSalesGroup" desc={`"Once a year, go somewhere you have never been." -Dalai Lama`} hrVisible={true} pictures={realHeroPics} />
           <ServiceCardSection />
           <OurTeamSection />
           <Footer />
