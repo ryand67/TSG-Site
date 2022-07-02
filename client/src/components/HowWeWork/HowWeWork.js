@@ -115,7 +115,9 @@ const HowWeWork = () => {
 			</p>
 			<p className="howWeWorkPoint">
 				3. Deposit & Final Payment: Once you've chosen your perfect itinerary,
-				you'll be given deposit and final payment information. 
+				you'll be given deposit and final payment information. *Please remember
+				that the plan to book deposit that you have paid is applied at final
+				payment or is non refundable.
 			</p>
 			<p className="howWeWorkPoint">
 				4. Documents: You will receive your final documents within 1-2 weeks of
