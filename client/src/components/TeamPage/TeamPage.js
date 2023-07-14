@@ -2,9 +2,9 @@ import React from "react";
 import "./teamPage.css";
 import Profile from "./PageParts/TeamPagePart";
 import FrankPic from "../../Assets/ProfilePhotos/Frank.jpg";
-import coralPic from "../../Assets/ProfilePhotos/Coral.jpeg";
+import coralPic from "../../Assets/ProfilePhotos/Coral.jpg";
 import heatherPic from "../../Assets/ProfilePhotos/Heather.jpg";
-import tanyaPic from "../../Assets/ProfilePhotos/TanyaNew.png";
+import tanyaPic from "../../Assets/ProfilePhotos/Tanya.jpg"
 import richiePic from "../../Assets/ProfilePhotos/Richie.jpg";
 import bridgetPic from "../../Assets/ProfilePhotos/Bridget.jpg";
 
@@ -13,7 +13,7 @@ export default function TeamPage() {
     {
       name: "Heather Dipietro",
       role: "Owner and Ceo",
-      desc: `​​Heather, Mom to two grown girls, caught the travel bug more than 15 years ago when she booked a 10th anniversary trip for herself and her husband to Mexico.  That trip was booked with the agency where Jenn was working and an instant friendship was born! After extensive training and extensive travel, Heather has turned a passion for planning romance travel into a career she truly loves as owner of TravelSalesGroup! She especially likes working with brides and grooms to create their dream destination weddings and  luxury honeymoons.  Her other passion is custom creating exclusive private villa or high end river cruise experiences for her ever growing list of luxury clientele.  The biggest compliment our TravelSalesGirl gets is referrals from past clients.  Heather specializes in Tahiti, Bora Bora, Africa, Europe, Mexico, Jamaica, Punta Cana, St. Lucia, St. Martin/St. Maarten, The Hawaiian Islands, Barbados, Anguilla, Antigua, Aruba, The Bahamas, AM Resorts, Royalton Resorts, Hard Rock Resorts, Sandals Resorts,  El Dorado and Azul Resorts, Belmond Resorts, Conrad Resorts, Honeymoons, River Cruises, and of course, Destination Weddings!  She has been honored to be the very first SLEX Saint Lucia Expert and has a seat on the exclusive Antigua and Barbuda Agent Advisory Board.  Jenn and Heather both love their collection of #travelsalesgroupies!!`,
+      desc: `Heather, Mom to two grown girls, caught the travel bug more than 15 years ago when she booked a 10th anniversary trip for herself and her husband to Mexico. That trip was booked with the agency where she ended up working! After lots of training and even more traveling, Heather has turned a passion for planning romance travel into a career she truly loves as owner of TravelSalesGroup! She especially likes working with brides and grooms to create their dream destination weddings and luxury honeymoons. Her other passion is custom creating exclusive private villa or high end river cruise experiences for her ever growing list of luxury clientele. The biggest compliment our TravelSalesGirl gets is referrals from past clients. Heather specializes in Tahiti, Bora Bora, Africa, Europe, Mexico, Jamaica, Punta Cana, St. Lucia, St. Martin/St. Maarten, The Hawaiian Islands, Barbados, Anguilla, Antigua, Aruba, The Bahamas, AM Resorts, Hard Rock Resorts, Sandals Resorts, El Dorado and Azul Resorts, Belmond Resorts, Conrad Resorts, Honeymoons, River Cruises, and of course, Destination Weddings! She has been honored to be the very first SLEX Saint Lucia Expert and has been honored with a Global Piton Award as well as a Black Pineapple Award and NEST’s Inspire Award to name a few.   She had a seat on the exclusive Antigua and Barbuda Agent Advisory Board and currently sits on the Agent Advisory Boards for Apple Leisure Group and The Affluent Traveler Collection. Be sure to check out the new company inspired by her two beautiful daughters and women around the world, www.Shestheworld.com.  Heather loves her collection of #travelsalesgroupies!!`,
       favDest:
         "Favorite destinations: Way too many to name them all but Bora Bora, Anguilla, Hawaii, Switzerland Antigua, St Lucia, and Mexico top the list.",
       phone: "Direct Line: 518-885-8035",
@@ -45,7 +45,7 @@ export default function TeamPage() {
     {
       name: "Coral Staton",
       role: "Travel Consultant",
-      desc: "Coral is no stranger to travel.  She began travelling the world at a very young age, exploring much of Mexico, South America, and Southern California in a volkswagen bus with her family!  Perhaps this is where Coral's passion for Health and Wellness / Adventure Travel came from!  Coral enjoys eco-tourism, ziplining, volcanic mud baths, spa trips, and horseback riding just for starters.  She specializes in planning adventure vacations like riding elephants in Thailand and Dive Tours in Belize.  Now, the Mom of two beautiful kids, Coral also has done her fair share of  yoga retreats and wellness groups at holistic resorts!  Looking for a little something different?  Coral is your girl!",
+      desc: "Coral is no stranger to travel. She began travelling the world at a very young age, exploring much of Mexico, South America, and Southern California in a volkswagen bus with her family! Perhaps this is where Coral's passion for Health and Wellness / Adventure Travel came from! Coral enjoys eco-tourism, snorkeling in Belize, ziplining, volcanic mud baths, spa trips, and glacier hiking in Iceland. She specializes in family vacations, couples getaways and honeymoons, especially in Mexico and the Caribbean. Now, the Mom of two beautiful kids, Coral also has done her fair share of yoga retreats and wellness groups at holistic resorts! Looking for a little something different? Coral is your girl!",
       phone: "​Direct Line: 770-272-5397​",
       email: "Coral@TravelSalesGroup.com",
       favDest:
