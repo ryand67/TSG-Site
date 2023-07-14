@@ -15,10 +15,10 @@ export default function(props) {
 
         emailjs.sendForm('service_mplbg7h', 'template_ffhm35s', e.target, 'user_8JdlKgob6SqIadG5ELa2O')
             .then((result) => {
-          console.log(result.text);
+                console.log(result.text);
             }, (error) => {
-          console.log(error.text);
-      });
+                console.log(error.text);
+            });
         e.target.reset();
     }
 
@@ -31,9 +31,9 @@ export default function(props) {
                     <label htmlFor="formNameInput">Name:</label>
                     <input required type="text" placeholder="Name" name="formNameInput" onChange={(e) => setName(e.target.value)} />
                     <label htmlFor="formEmailInput">Email:</label>
-                    <input required type="email" placeholder="example@example.com" name="formEmailInput" onChange={(e) => setEmail(e.target.value)}/>
+                    <input required type="email" placeholder="example@example.com" name="formEmailInput" onChange={(e) => setEmail(e.target.value)} />
                     <label htmlFor="formPhoneInput">Phone Number:</label>
-                    <input required type="tel" placeholder="1234567890" name="formPhoneInput"  onChange={(e) => setPhone(e.target.value)}/>
+                    <input required type="tel" placeholder="1234567890" name="formPhoneInput" onChange={(e) => setPhone(e.target.value)} />
                     <label htmlFor="formSubject">Subject:</label>
                     <input required type="text" name="formSubject" placeholder="Subject" />
                     <label htmlFor="formMessageTextArea">Message:</label>
