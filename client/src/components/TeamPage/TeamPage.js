@@ -55,7 +55,7 @@ export default function TeamPage() {
         },
         {
             name: "Bridget Merritt",
-            role: "Travel Consultant",
+            role: "Director of Sales - Mexico and Caribbean",
             desc: "Bridget fell in love with travel when she came in as our Administrative Assistant.  Looking for a flexible career where she could stay home to be a supporting wife and mother to 2 girls, she took her first trip to Puerto Vallarta, Mexico and she was hooked.  She loves working with families, small groups and booking romantic vacations for couples and specializes in Mexico, Punta Cana and the Caribbean.  She is our agency go-to for travel within the US.  So if you have your eyes on the Keys in South Florida, heading to Alaska’s frozen tundra or anywhere in between she can make sure you have a memorable experience.   She is also our resident Cruising Advisor for Alaska, Mexico and the Caribbean.",
             phone: "Direct Line: 704-437-9117",
             email: "Bridget@TravelSalesGroup.com",
@@ -65,7 +65,7 @@ export default function TeamPage() {
         },
         {
             name: "Richie Dessureau",
-            role: "Travel Consultant",
+            role: "Director of Group Sales",
             desc: "Rich started with travel before he even started kindergarten when his parents took him on his first trip to Disney.  That was the first of many annual family vacations.  He visited Disney at least a dozen times over the years.  He has roadtripped throughout all of New England, went to college in New York City, then moved to the south and stayed a while in Nashville.  As he got older, his tastes turned toward the sand and surf and he traveled to Mexico and the Caribbean, visiting St Thomas, St Martin, and the US Virgin Islands.  So, as you can see, Rich is our newest team member, but he is far from new to traveling.  Rich will be helping with our groups and with your special Europe itineraries.",
             phone: "Direct Line: 518-527-3189",
             email: "Rich@TravelSalesGroup.com",
