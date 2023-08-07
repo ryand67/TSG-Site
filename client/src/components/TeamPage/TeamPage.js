@@ -64,7 +64,7 @@ export default function TeamPage() {
             urlId: "Bridget-Merritt",
         },
         {
-            name: "Richie Dessureau",
+            name: "Rich Dessureau",
             role: "Director of Group Sales",
             desc: "Rich started with travel before he even started kindergarten when his parents took him on his first trip to Disney.  That was the first of many annual family vacations.  He visited Disney at least a dozen times over the years.  He has roadtripped throughout all of New England, went to college in New York City, then moved to the south and stayed a while in Nashville.  As he got older, his tastes turned toward the sand and surf and he traveled to Mexico and the Caribbean, visiting St Thomas, St Martin, and the US Virgin Islands.  So, as you can see, Rich is our newest team member, but he is far from new to traveling.  Rich will be helping with our groups and with your special Europe itineraries.",
             phone: "Direct Line: 518-527-3189",
