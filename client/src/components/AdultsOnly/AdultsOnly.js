@@ -10,7 +10,7 @@ const AdultsOnly = () => {
         setWindowWidth(window.innerWidth);
     })
 
-    const cancunLinks=[['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1920766931410907&width=500&show_text=true&height=765&appId', 'Royalton Chic Suites Cancun'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%3Fvanity%3Dtravelsalesgroup%26set%3Da.1928242513996682&width=500&show_text=true&height=765&appId', 'Planet Hollywood Cancun Beach Resort'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1928247200662880&width=500&show_text=true&height=759&appId', 'Blue Diamond Luxury Boutique Resort'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.540565556097725&show_text=true&width=552&height=792&appId', 'Secrets Akumal'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.728746207279658&show_text=true&width=552&height=792&appId', 'El Dorado Maroma Palafito'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.540622576092023&show_text=true&width=552&height=792&appId', 'El Dorado Maroma Resort and Spa'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1029168537237422&show_text=true&width=552&height=880&appId', 'UNICO'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1547714015382869&show_text=true&width=552&height=792&appId', 'Atelier Playa Mujeres'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.370891783065104&show_text=true&width=552&height=697&appId', 'Hard Rock Rivera Maya—Heaven Section'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.136637486490536&show_text=true&width=552&height=773&appId', 'Secrets Maroma Beach'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.369132076574408&show_text=true&width=552&height=735&appId', 'Secrets The Vine'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.593114350842845&show_text=true&width=552&height=798&appId', 'Secrets Capri'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.134924809995137&show_text=true&width=552&height=773&appId', 'El Dorado Casitas Royale'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1813226355498299&show_text=true&width=552&height=804&appId', 'Le Blanc Cancun']]
+    const cancunLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1920766931410907&width=500&show_text=true&height=765&appId', 'Royalton Chic Suites Cancun'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%3Fvanity%3Dtravelsalesgroup%26set%3Da.1928242513996682&width=500&show_text=true&height=765&appId', 'Planet Hollywood Cancun Beach Resort'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1928247200662880&width=500&show_text=true&height=759&appId', 'Blue Diamond Luxury Boutique Resort'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.540565556097725&show_text=true&width=552&height=792&appId', 'Secrets Akumal'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.728746207279658&show_text=true&width=552&height=792&appId', 'El Dorado Maroma Palafito'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.540622576092023&show_text=true&width=552&height=792&appId', 'El Dorado Maroma Resort and Spa'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1029168537237422&show_text=true&width=552&height=880&appId', 'UNICO'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1547714015382869&show_text=true&width=552&height=792&appId', 'Atelier Playa Mujeres'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.370891783065104&show_text=true&width=552&height=697&appId', 'Hard Rock Rivera Maya—Heaven Section'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.136637486490536&show_text=true&width=552&height=773&appId', 'Secrets Maroma Beach'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.369132076574408&show_text=true&width=552&height=735&appId', 'Secrets The Vine'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.134924809995137&show_text=true&width=552&height=773&appId', 'El Dorado Casitas Royale'], ['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.1813226355498299&show_text=true&width=552&height=804&appId', 'Le Blanc Cancun']]
 
     const cozumelLinks = [['https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fvanity%3Dtravelsalesgroup%26set%3Da.371507346336881&show_text=true&width=552&height=773&appId', 'Secrets Aura']]
 
@@ -46,7 +46,7 @@ const AdultsOnly = () => {
             return (
                 <>
                     <h1 className="fbHeader">{item[1]}</h1>
-                    <iframe alt={item[1]} loading="lazy" key={i} src={item[0]} width={window.innerWidth > 575 ? "552" : "325"} height="792" style={iframeStyle} scrolling="no" frameBorder="0"  allow="encrypted-media"></iframe>
+                    <iframe alt={item[1]} loading="lazy" key={i} src={item[0]} width={window.innerWidth > 575 ? "552" : "325"} height="792" style={iframeStyle} scrolling="no" frameBorder="0" allow="encrypted-media"></iframe>
                 </>
             )
         })
@@ -54,31 +54,31 @@ const AdultsOnly = () => {
     }
 
     const handleArrayPassing = () => {
-        if(currentCountry === 'Riviera Maya/Cancun') {
+        if (currentCountry === 'Riviera Maya/Cancun') {
             return cancunLinks;
-        } else if(currentCountry === 'Cozumel') {
+        } else if (currentCountry === 'Cozumel') {
             return cozumelLinks;
-        } else if(currentCountry === 'Antigua') {
+        } else if (currentCountry === 'Antigua') {
             return antiguaLinks;
-        } else if(currentCountry === 'St. Lucia') {
+        } else if (currentCountry === 'St. Lucia') {
             return stLuciaLinks;
-        } else if(currentCountry === 'Punta Cana') {
+        } else if (currentCountry === 'Punta Cana') {
             return puntaLinks;
-        } else if(currentCountry === 'Jamaica') {
+        } else if (currentCountry === 'Jamaica') {
             return jamaicaLinks;
-        } else if(currentCountry === 'Barbados') {
+        } else if (currentCountry === 'Barbados') {
             return barbadosLinks;
-        } else if(currentCountry === 'St. Martin') {
+        } else if (currentCountry === 'St. Martin') {
             return stMartinLinks;
-        } else if(currentCountry === 'Bahamas') {
+        } else if (currentCountry === 'Bahamas') {
             return bahamasLinks;
-        } else if(currentCountry === 'Aruba') {
+        } else if (currentCountry === 'Aruba') {
             return arubaLinks;
-        } else if(currentCountry === 'Costa Rica') {
+        } else if (currentCountry === 'Costa Rica') {
             return costaRicaLinks;
-        } else if(currentCountry === 'Cabo San Lucas') {
+        } else if (currentCountry === 'Cabo San Lucas') {
             return caboLinks;
-        } else if(currentCountry === 'Tahiti') {
+        } else if (currentCountry === 'Tahiti') {
             return tahitiLinks;
         }
     }
