@@ -137,8 +137,8 @@ const HowWeWork = () => {
                 of your card being charged. We are very much looking forward to working with you!
         </p>
             <p className="howWeWorkPoint">
-                Interested in joining one of our group adventures?  Check out <a href="www.shestheworld.com" target="_blank">www.shestheworld.com</a>
-                to travel with one of advisors on a small group experiennce !
+                Interested in joining one of our group adventures?  Check out <a href="www.shestheworld.com" target="_blank">www.shestheworld.com</a> to
+                travel with one of advisors on a small group experiennce !
         </p>
         </div>
     );
